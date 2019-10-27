@@ -1,6 +1,3 @@
-import tweepy
-import datetime
-
 class TweetMiner(object):
 
     result_limit    =   20    
@@ -8,10 +5,10 @@ class TweetMiner(object):
     api             =   False
     
     twitter_keys = {
-        'consumer_key':        'CzIGg1C9kxtXtJ8PXeMNgIxW0',
-        'consumer_secret':     'kpY4r4OzXT7OQme0rAugRKNJnStXyiqCXUoqi7sMa1th3dqQSA',
-        'access_token_key':    '921050102164283394-wFCEFzYDLxn98CGmFl39ycKe93p2VOb',
-        'access_token_secret': 'tRX4RBGjXnd5Jrm9lc0ALO2Gb5waGvRdmAg439zajwCSI'
+        'consumer_key':        '---YOUR-KEY---',
+        'consumer_secret':     '---YOUR-KEY---',
+        'access_token_key':    '---YOUR-KEY---',
+        'access_token_secret': '---YOUR-KEY---'
     }
     
     
@@ -31,7 +28,7 @@ class TweetMiner(object):
     def mine_user_tweets(self, user="dril", #BECAUSE WHO ELSE!
                          mine_rewteets=False,
                          max_pages=5):
-        print("hey")
+
         data           =  []
         last_tweet_id  =  False
         page           =  1
@@ -83,7 +80,4 @@ class TweetMiner(object):
                 
             page += 1
             
-        return data
-
-twtr = TweetMiner()
-print(twtr.mine_user_tweets())
+        return data 
