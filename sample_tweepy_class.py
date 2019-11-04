@@ -30,6 +30,51 @@ class TweetMiner(object):
 
         self.result_limit = result_limit
 
+    def mine_by_hashtag(self, hashtag="#WeWork", mine_retweets=False, max_pages=1, max_items=20):
+        data = []
+        # last_tweet_id = False
+        page = 1
+
+        while page <= max_pages:
+            statuses = tweepy.Cursor(self.api.search, q="#WeWork",
+                                     lang="en",
+                                     since="2017-04-03").items(max_items)
+            for item in statuses:
+
+                mined = {
+                    'tweet_id':        item.id,
+                    'name':            item.user.name,
+                    'screen_name':     item.user.screen_name,
+                    'retweet_count':   item.retweet_count,
+                    'text':            item.text.encode("utf-8"),
+                    'mined_at':        datetime.datetime.now(),
+                    'created_at':      item.created_at,
+                    'favourite_count': item.favorite_count,
+                    'hashtags':        item.entities['hashtags'],
+                    'status_count':    item.user.statuses_count,
+                    'location':        item.place,
+                    'source_device':   item.source
+                }
+                # print(mined['text'])
+
+                try:
+                    mined['retweet_text'] = item.retweeted_status.full_text
+                except:
+                    mined['retweet_text'] = 'None'
+                try:
+                    mined['quote_text'] = item.quoted_status.full_text
+                    mined['quote_screen_name'] = status.quoted_status.user.screen_name
+                except:
+                    mined['quote_text'] = 'None'
+                    mined['quote_screen_name'] = 'None'
+
+                # last_tweet_id = item.id
+                data.append(mined)
+
+            page += 1
+
+        return data
+
     def mine_user_tweets(self, user="dril",  # BECAUSE WHO ELSE!
                          mine_rewteets=False,
                          max_pages=5):
@@ -86,8 +131,10 @@ class TweetMiner(object):
 
         return data
 
+
 miner = TweetMiner(result_limit=200)
-mined_tweets = miner.mine_user_tweets(user="MarcosA73096454", max_pages=17)
+# mined_tweets = miner.mine_user_tweets(user="MarcosA73096454", max_pages=17)
+mined_tweets = miner.mine_by_hashtag(hashtag="#WeWork")
 
 mined_tweets_df = pd.DataFrame(mined_tweets)
 
