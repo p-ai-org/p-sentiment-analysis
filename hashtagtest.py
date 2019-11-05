@@ -7,8 +7,8 @@ csecret = ""
 atoken = ""
 asecret = ""
 
-OAUTH_KEYS = {'consumer_key':'BWDvPWSmrJ18xEBTPbTkxiGm9', 'consumer_secret':'FodmJZP8RPjdG5ZJ0dz6xpNEjOFYG5LnFTjvmKKze8e0GmAO8b',
-    'access_token_key':'769205140645642240-pFoG4e2EpEQft63BjruaLmLvuehRQDx', 'access_token_secret':'NvpPKD8xZKd14NxmuzONg2rAApMjYkJK5wmkyE1UGgBOk'}
+OAUTH_KEYS = {'consumer_key':'', 'consumer_secret':'',
+    'access_token_key':'769205140645642240-pFoG4e2EpEQft63BjruaLmLvuehRQDx', 'access_token_secret':''}
 auth = tweepy.OAuthHandler(OAUTH_KEYS['consumer_key'], OAUTH_KEYS['consumer_secret'])
 api = tweepy.API(auth)
 
