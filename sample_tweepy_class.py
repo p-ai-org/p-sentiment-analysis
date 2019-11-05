@@ -1,83 +1,74 @@
-class TweetMiner(object):
+import tweepy
+from tweepy import Stream
+from tweepy import OAuthHandler
+from tweepy.streaming import StreamListener
+import pandas as pd
+import json
+import csv
+import sys
+import time
 
-    result_limit    =   20    
-    data            =   []
-    api             =   False
-    
-    twitter_keys = {
-        'consumer_key':        '---YOUR-KEY---',
-        'consumer_secret':     '---YOUR-KEY---',
-        'access_token_key':    '---YOUR-KEY---',
-        'access_token_secret': '---YOUR-KEY---'
-    }
-    
-    
-    def __init__(self, keys_dict=twitter_keys, api=api, result_limit = 20):
-        
-        self.twitter_keys = keys_dict
-        
-        auth = tweepy.OAuthHandler(keys_dict['consumer_key'], keys_dict['consumer_secret'])
-        auth.set_access_token(keys_dict['access_token_key'], keys_dict['access_token_secret'])
-        
-        self.api = tweepy.API(auth)
-        self.twitter_keys = keys_dict
-        
-        self.result_limit = result_limit
-        
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 
-    def mine_user_tweets(self, user="dril", #BECAUSE WHO ELSE!
-                         mine_rewteets=False,
-                         max_pages=5):
+ckey = 'BWDvPWSmrJ18xEBTPbTkxiGm9'
+csecret = 'FodmJZP8RPjdG5ZJ0dz6xpNEjOFYG5LnFTjvmKKze8e0GmAO8b'
+atoken = '769205140645642240-pFoG4e2EpEQft63BjruaLmLvuehRQDx'
+asecret = 'NvpPKD8xZKd14NxmuzONg2rAApMjYkJK5wmkyE1UGgBOk'
 
-        data           =  []
-        last_tweet_id  =  False
-        page           =  1
-        
-        while page <= max_pages:
-            if last_tweet_id:
-                statuses   =   self.api.user_timeline(screen_name=user,
-                                                     count=self.result_limit,
-                                                     max_id=last_tweet_id - 1,
-                                                     tweet_mode = 'extended',
-                                                     include_retweets=True
-                                                    )        
-            else:
-                statuses   =   self.api.user_timeline(screen_name=user,
-                                                        count=self.result_limit,
-                                                        tweet_mode = 'extended',
-                                                        include_retweets=True)
-                
-            for item in statuses:
+def toDataFrame(tweets):
+    # COnvert to data frame
+    DataSet = pd.DataFrame()
 
-                mined = {
-                    'tweet_id':        item.id,
-                    'name':            item.user.name,
-                    'screen_name':     item.user.screen_name,
-                    'retweet_count':   item.retweet_count,
-                    'text':            item.full_text,
-                    'mined_at':        datetime.datetime.now(),
-                    'created_at':      item.created_at,
-                    'favourite_count': item.favorite_count,
-                    'hashtags':        item.entities['hashtags'],
-                    'status_count':    item.user.statuses_count,
-                    'location':        item.place,
-                    'source_device':   item.source
-                }
-                
-                try:
-                    mined['retweet_text'] = item.retweeted_status.full_text
-                except:
-                    mined['retweet_text'] = 'None'
-                try:
-                    mined['quote_text'] = item.quoted_status.full_text
-                    mined['quote_screen_name'] = status.quoted_status.user.screen_name
-                except:
-                    mined['quote_text'] = 'None'
-                    mined['quote_screen_name'] = 'None'
-                
-                last_tweet_id = item.id
-                data.append(mined)
-                
-            page += 1
-            
-        return data 
+    DataSet['tweetID'] = [tweet.id for tweet in tweets]
+    DataSet['tweetText'] = [tweet.text.encode('utf-8') for tweet in tweets]
+    DataSet['tweetRetweetCt'] = [tweet.retweet_count for tweet in tweets]
+    DataSet['tweetFavoriteCt'] = [tweet.favorite_count for tweet in tweets]
+    DataSet['tweetSource'] = [tweet.source for tweet in tweets]
+    DataSet['tweetCreated'] = [tweet.created_at for tweet in tweets]
+    DataSet['userID'] = [tweet.user.id for tweet in tweets]
+    DataSet['userScreen'] = [tweet.user.screen_name for tweet in tweets]
+    DataSet['userName'] = [tweet.user.name for tweet in tweets]
+    DataSet['userCreateDt'] = [tweet.user.created_at for tweet in tweets]
+    DataSet['userDesc'] = [tweet.user.description for tweet in tweets]
+    DataSet['userFollowerCt'] = [tweet.user.followers_count for tweet in tweets]
+    DataSet['userFriendsCt'] = [tweet.user.friends_count for tweet in tweets]
+    DataSet['userLocation'] = [tweet.user.location for tweet in tweets]
+    DataSet['userTimezone'] = [tweet.user.time_zone for tweet in tweets]
+    DataSet['Coordinates'] = [tweet.coordinates for tweet in tweets]
+    DataSet['GeoEnabled'] = [tweet.user.geo_enabled for tweet in tweets]
+    DataSet['Language'] = [tweet.user.lang for tweet in tweets]
+    tweets_place= []
+    #users_retweeted = []
+    for tweet in tweets:
+        if tweet.place:
+            tweets_place.append(tweet.place.full_name)
+        else:
+            tweets_place.append('null')
+    DataSet['TweetPlace'] = [i for i in tweets_place]
+    #DataSet['UserWhoRetweeted'] = [i for i in users_retweeted]
+
+    return DataSet
+
+OAUTH_KEYS = {'consumer_key':'BWDvPWSmrJ18xEBTPbTkxiGm9', 'consumer_secret':'FodmJZP8RPjdG5ZJ0dz6xpNEjOFYG5LnFTjvmKKze8e0GmAO8b',
+    'access_token_key':'769205140645642240-pFoG4e2EpEQft63BjruaLmLvuehRQDx', 'access_token_secret':'NvpPKD8xZKd14NxmuzONg2rAApMjYkJK5wmkyE1UGgBOk'}
+#auth = tweepy.OAuthHandler(OAUTH_KEYS['consumer_key'], OAUTH_KEYS['consumer_secret'])
+auth = tweepy.OAuthHandler(OAUTH_KEYS['consumer_key'], OAUTH_KEYS['consumer_secret'])
+
+api = tweepy.API(auth, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
+if (not api):
+    print ("Can't Authenticate")
+    sys.exit(-1)
+else:
+    print ("Scraping data now") # Enter lat and long and radius in Kms  q='ganesh'
+    #cursor = tweepy.Cursor(api.search,geocode="23.50000,91.16000,50km",since='2017-09-01',until='2017-09-05',lang='en',count=10000)
+    #cursor = tweepy.Cursor(api.search,geocode="43.17305,-77.62479,50km",since='2017-09-01',until='2017-09-05',lang='en',count=10000)
+    cursor = tweepy.Cursor(api.search, q="#WeWork",count=10000,lang="en",since="2019-08-01", until="2019-11-01")
+    results=[]
+    for item in cursor.items(1000): # Remove the limit to 1000
+            results.append(item)
+
+
+    DataSet = toDataFrame(results)
+    DataSet.to_csv('wework.csv',index=False)
+    print ("Completed.. !!")
