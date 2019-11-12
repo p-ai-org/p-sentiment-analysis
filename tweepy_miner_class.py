@@ -1,7 +1,7 @@
 import datetime
 import tweepy
 import pandas as pd
-import sys
+import GetOldTweets3 as got
 
 class TweetMiner(object):
 
@@ -9,15 +9,7 @@ class TweetMiner(object):
     data           =   []
     api            =   False
 
-    twitter_keys = {
-        'consumer_key':         'ytF42avewxOOM3sIfesKzkbAZ',
-        'consumer_secret':      'ZOHNaPfPYT6K2toYqRgI2GjsXBy5klIHU8xERfXAOrLPIH6KBw',
-        'access_token_key':     '1019863774101061632-ELZ22Ze3iCi12nSuVhPh60EkzTZLra',
-        'access_token_secret':  'YDIWTC4XkcwKXowE00VTykZe3Jjxe8XVYnkLdy94u1ld4'
-    }
-
-
-    def __init__(self, keys_dict=twitter_keys, api=api, result_limit=20):
+    def __init__(self, keys_dict, api=api, result_limit=20):
         """
         initializes a TweetMiner object and handles authentication for the app
 
@@ -58,13 +50,13 @@ class TweetMiner(object):
                 statuses   =   self.api.user_timeline(screen_name=user,
                                                      count=self.result_limit,
                                                      max_id=last_tweet_id - 1,
-                                                     tweet_mode = 'extended',
+                                                     tweet_mode='extended',
                                                      include_retweets=True
                                                     )
             else:
                 statuses   =   self.api.user_timeline(screen_name=user,
                                                         count=self.result_limit,
-                                                        tweet_mode = 'extended',
+                                                        tweet_mode='extended',
                                                         include_retweets=True)
 
             for item in statuses:
@@ -122,35 +114,48 @@ class TweetMiner(object):
         while page <= max_pages:
             # get SearchResults objects containing the query
             if last_tweet_id:
+
+
+
+
                 queried_search = self.api.search(q=query,
                                                  count=self.result_limit,
                                                  max_id=last_tweet_id-1,
-                                                 lang='en')
+                                                 lang='en',
+                                                 since='2019-08-01',
+                                                 until='2019-11-01',
+                                                 tweet_mode='extended')
 
             else:
                 queried_search = self.api.search(q=query,
                                                  count=self.result_limit,
-                                                 lang='en')
+                                                 lang='en',
+                                                 since='2019-08-01',
+                                                 until='2019-11-01',
+                                                 tweet_mode='extended')
 
             # mine data from the SearchResults object
             for item in queried_search:
 
-                 mined = {
-                     'tweet_id':        item.id,
-                     'name':            item.user.name,
-                     'screen_name':     item.user.screen_name,
-                     'retweet_count':   item.retweet_count,
-                     'text':            item.text,
-                     'mined_at':        datetime.datetime.now(),
-                     'created_at':      item.created_at,
-                     'favourite_count': item.favorite_count,
-                     'hashtags':        item.entities['hashtags'],
-                     'status_count':    item.user.statuses_count,
-                     'location':        item.place,
-                     'source_device':   item.source
-                 }
+                mined = {
+                    'tweet_id':        item.id,
+                    'name':            item.user.name,
+                    'screen_name':     item.user.screen_name,
+                    'retweet_count':   item.retweet_count,
+                    'text':            item.full_text,
+                    'mined_at':        datetime.datetime.now(),
+                    'created_at':      item.created_at,
+                    'favourite_count': item.favorite_count,
+                    'hashtags':        item.entities['hashtags'],
+                    'status_count':    item.user.statuses_count,
+                    'location':        item.place,
+                    'source_device':   item.source,
+                }
 
-                 if mine_retweets:
+                if item.place:
+                    mined['coordinates']:     item.place.bounding_box.coordinates
+
+                if mine_retweets:
                     try:
                         mined['retweet_text'] = item.retweeted_status.full_text
                     except tweepy.TweepError as e:
@@ -164,27 +169,53 @@ class TweetMiner(object):
                         mined['quote_screen_name'] = 'None'
                         print(f"Error: Retweet Not Found - \n{str(e)}")
 
-                 last_tweet_id = item.id
-                 data.append(mined)
+                last_tweet_id = item.id
+                data.append(mined)
 
             page += 1
 
         return pd.DataFrame(data)
 
 
-def main(argv):
-    """
-    initializes a TweetMiner object, mines Tweets for the query
-    'wework ipo', and saves the Pandas dataframe to a .csv file
-    """
-    miner = TweetMiner(result_limit=100)
-    df = miner.mine_queried_tweets('wework ipo', max_pages=10)
-    df.to_csv(argv[0], sep='\t', encoding='utf-8', index=False)
+    def mine_queried_tweets_old(self, query, since='2019-11-01', until='2019-11-07', max=100):
+        """
+        mines old Tweets by query using GetOldTweets3
 
+        @params query:   string of keywords to search for
+                since:   lower bound date to start mining Tweets from
+                until:   upper bound date to end mining Tweets from 
+                max:     maximum number of Tweets to mine
 
-if __name__ == '__main__':
-    main(sys.argv[1:])
+        @returns a Pandas dataframe of Tweets/Tweet information
+        """
+        data = []
 
+        # set the parameters for mining Tweets
+        tweet_criteria = got.manager.TweetCriteria().setQuerySearch(query)\
+                                                    .setSince(since)\
+                                                    .setUntil(until)\
+                                                    .setMaxTweets(max)\
+                                                    .setLang('en')\
 
+        # get GOT manager containing the Tweets 
+        tweets = got.manager.TweetManager.getTweets(tweet_criteria)
 
+        # mine data from the Tweets 
+        for item in tweets:
 
+            mined = {
+                'tweet_id':        item.id,
+                'name':            item.username,
+                'text':            item.text,
+                'mined_at':        datetime.datetime.now(),
+                'created_at':      item.date,
+                'retweets':        item.retweets,
+                'favorites':       item.favorites,
+                'hashtags':        item.hashtags,
+                'mentions':        item.mentions,
+                'location':        item.geo,
+            }
+
+            data.append(mined)
+
+        return pd.DataFrame(data)
