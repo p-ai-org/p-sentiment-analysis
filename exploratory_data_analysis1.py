@@ -9,6 +9,7 @@ from nltk.corpus import stopwords
 import string
 import re
 import emoji
+from nltk.stem.snowball import SnowballStemmer
 pd.set_option('display.max_colwidth', 100)
 
 # Load dataset
@@ -39,9 +40,24 @@ def remove_stopwords(text):
 def stemming(text):
     """Assumes that text has already been tokenized
     """
-    sb = SnowballStemmer()
+    sb = SnowballStemmer("english")
     for word in text:
         print(word, " : ", sb.stem(word)) 
+
+def remove_url(text):
+    pattern = r"http\S+"
+    #text = "https://www.google.com"
+    text = re.sub(pattern, "",text)
+    pattern2 = r"www\S+"
+    return re.sub(pattern2, "",text)
+
+def remove_hashtag(text):
+    pattern = r"#\S+"
+    return re.sub(pattern, "",text)
+
+def remove_username(text):
+    pattern = r"@\S+"
+    return re.sub(pattern, "",text)
 
 #tweet_df = load_data()
 #df  = pd.DataFrame(tweet_df[['username', 'text']])
@@ -52,8 +68,12 @@ def stemming(text):
 
 #tweet_df.head()
 
-tweet="Testing🤠 Sarah's cradle loves pizza and cats but she doesn't herself."
-print(tweet)
+tweet="Testing🤠 Sarah's @what cradle loves pizza and cats but she doesn't herself. #lol https://google.com www.cya.com"
 tweet = remove_emoji(tweet)
+tweet = remove_url(tweet)
+tweet = remove_hashtag(tweet)
+tweet = remove_username(tweet)
+print(tweet)
 print(tokenization(tweet))
-print(remove_stopwords(tweet))
+tweet = remove_stopwords(tweet)
+print(stemming(tweet))
