@@ -2,20 +2,38 @@ import nltk
 import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from geotext import GeoText
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
 stop_words = set(stopwords.words('english'))
 
+lemmatizer = WordNetLemmatizer()
+
 def clean_tweet(tweet):
-    tweet_cleaned = tweet.split(' ')
-    tweet_cleaned = remove_stop_words(tweet_cleaned)
-    tweet_cleaned = remove_urls(tweet_cleaned)
-    tweet_cleaned = remove_hashtags(tweet_cleaned)
-    tweet_cleaned = remove_usernames(tweet_cleaned)
-    tweet_cleaned = remove_places(tweet_cleaned)
-    tweet_compiled = ' '.join(tweet_cleaned)
-    tweet_compiled = word_tokenize(tweet_compiled)
-    return tweet_compiled
-    
+    tweet = remove_unwanted(tweet)
+    tokens = nltk.word_tokenize(tweet)
+    tokens = remove_stop_words(tokens)
+    tweet_cleaned = lemmatize(tokens)
+    return tweet_cleaned
+
+def remove_unwanted(tweet):
+    tweet = re.findall(r"[\w']+|[.,!?;]", tweet)
+    tweet = remove_urls(tweet)
+    tweet = remove_hashtags(tweet)
+    tweet = remove_usernames(tweet)
+    return ' '.join(tweet)
+
+
+def lemmatize(tokens):
+    return [lemmatizer.lemmatize(w, get_pos(w)) for w in tokens]
+
+def get_pos(word):
+    tag = nltk.pos_tag([word])[0][1][0].upper()
+    tag_dict = {"J": wordnet.ADJ,
+                "N": wordnet.NOUN,
+                "V": wordnet.VERB,
+                "R": wordnet.ADV}
+    return tag_dict.get(tag, wordnet.NOUN)
+
 def remove_hashtags(tweet_tokens):
     regex = re.compile(r'^#.+')
     return [i for i in tweet_tokens if not regex.search(i)]
@@ -34,6 +52,5 @@ def remove_urls(tweet_tokens):
 def remove_places(tweet_tokens):
     return tweet_tokens
 
-# print(clean_tweet("Hey, how was London? I know how much you loved Las Vegas"))
-# print(clean_tweet("Hey, how are you doing? My ass is tight as all hell."))
-print(clean_tweet("Hey, how are you doing? This was such a nice day, and I love London. #Love. Here's a link: life.com. Thanks @Donald!"))
+tweet = "Hey, how are you doing? Things are great over here, not going to lie #liars. You should check out this link: https://www.machinelearningplus.com/nlp/lemmatization-examples-python/. Thanks @StackOverflow!"
+print(clean_tweet(tweet))
