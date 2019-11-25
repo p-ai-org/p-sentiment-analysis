@@ -15,29 +15,37 @@ spell = SpellChecker()
 
 # Top level tweet cleaner
 def clean_tweet(tweet):
-    # Remove unwanted features like names and hashtags
-    tweet = remove_unwanted(tweet)
+    # Remove unwanted features like names and hashtags and tokenize
+    tokens = remove_unwanted(tweet)
+    
     # Tokenize
-    tokens = nltk.word_tokenize(tweet)
+    # tokens = nltk.word_tokenize(tweet)
+    
     # Correct spelling
     tokens = correct_spelling(tokens)
     # Remove stop words
     tokens = remove_stop_words(tokens)
     # Lemmatize
     tweet_cleaned = lemmatize(tokens)
+    tweet_cleaned = [item.lower() for item in tweet_cleaned]
     return tweet_cleaned
 
 # Remove urls, punctiation, hashtags, etc
 def remove_unwanted(tweet):
+    # Split up by words to remove urls, then put back together
     tweet = remove_urls(tweet.split(' '))
-    tweet = ' '.join(tweet)
-    # Remove punctuation
-    exclude = set(string.punctuation)
-    tweet = ''.join(ch for ch in tweet if ch not in exclude)
-    tweet = re.findall(r"[\w']+|[.,!?;]", tweet)
     # Remove hastags, names, and RT
     tweet = remove_twitter_stuff(tweet)
-    return ' '.join(tweet)
+    tweet = ' '.join(tweet)
+    # Remove punctuation
+    exclude = r'"#$%*+-:-;<=>@[\]^_`{|}~'
+    space = r'.,!&()/?'
+    tweet = ''.join(ch for ch in tweet if ch not in exclude)
+    for c in space:
+        tweet = tweet.replace(c, ' ')
+    # Get all words
+    tweet = re.findall(r"[\w']+", tweet)
+    return tweet
 
 
 def correct_spelling(tokens):
@@ -69,5 +77,5 @@ def remove_urls(tweet_tokens):
     regex = re.compile(r'^http|.*\.com.*')
     return [i for i in tweet_tokens if not regex.search(i)]
 
-tweet = "What’s funny is how the media makes it look lieke a bold and encouraging move. Then later when things don’t go right as it did for wework ceo then the same media contemplates on what went wrong."
-print(clean_tweet(tweet))
+# tweet = "downloading apps for my iphone! So much fun :-) There literally is an app for just about anything."
+# print(clean_tweet(tweet))
