@@ -5,11 +5,13 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
+from spellchecker import SpellChecker
 import time
 stop_words = set(stopwords.words('english'))
 
 # Instantiate lemmatizer
 lemmatizer = WordNetLemmatizer()
+spell = SpellChecker()
 
 # Top level tweet cleaner
 def clean_tweet(tweet):
@@ -17,6 +19,8 @@ def clean_tweet(tweet):
     tweet = remove_unwanted(tweet)
     # Tokenize
     tokens = nltk.word_tokenize(tweet)
+    # Correct spelling
+    tokens = correct_spelling(tokens)
     # Remove stop words
     tokens = remove_stop_words(tokens)
     # Lemmatize
@@ -35,6 +39,9 @@ def remove_unwanted(tweet):
     tweet = remove_twitter_stuff(tweet)
     return ' '.join(tweet)
 
+
+def correct_spelling(tokens):
+    return [spell.correction(w) for w in tokens] 
 
 def lemmatize(tokens):
     return [lemmatizer.lemmatize(w, get_pos(w)) for w in tokens]
@@ -62,5 +69,5 @@ def remove_urls(tweet_tokens):
     regex = re.compile(r'^http|.*\.com.*')
     return [i for i in tweet_tokens if not regex.search(i)]
 
-tweet = "What’s funny is how the media makes it look like a bold and encouraging move. Then later when things don’t go right as it did for wework ceo then the same media contemplates on what went wrong."
+tweet = "What’s funny is how the media makes it look lieke a bold and encouraging move. Then later when things don’t go right as it did for wework ceo then the same media contemplates on what went wrong."
 print(clean_tweet(tweet))
