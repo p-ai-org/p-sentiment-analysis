@@ -1,0 +1,783 @@
+,text,sentiment
+0,"['for', 'bluster', 'hubris', 'rework', 'still', 'future']",3
+1,"['top', 'story', 'some', 'rework', 'board', 'members', 'seek', 'remove', 'adam', 'neumann', 'ceo', 'w', 'see']",2
+2,"['many', 'company', 'take', 'care', 'one', 'many', 'two', 'but', 'get', 'three', 'align', 'brutally', 'hard', 'easy', 'way', 'appease', 'one', 'group', 'expense', 'another', 'that', 'reward', 'find', 'balance', 'great', 'rework']",2
+3,"['rework', 'space', 'like']",1
+4,"['rework', 'po', 'beware', 'master', 'unicorn', 'wranglers', 'banyanhill', 'twitter', 'news', 'notice', 'hitchin', 'cryptocurrency']",2
+6,"['geraldbader', 'air', 'rework', 'problem', 'via', 'kate', 'clark', 'via', 'twitter']",2
+7,"['true', 'dint', 'build', 'or', 'change']",1
+8,"['fastcompany', 'what', 'venture', 'capital', 'investor', 'need', 'learn', 'mistake', 'rework', 'user']",1
+10,"['what', 'funny', 'medium', 'make', 'look', 'like', 'bold', 'encourage', 'move', 'then', 'later', 'thing', 'go', 'right', 'rework', 'ceo', 'medium', 'contemplates', 'go', 'wrong']",1
+11,"['postbank', 'push', 'rework', 'postpone', 'contentious', 'po']",1
+12,"['air', 'rework', 'problem', 'kateclarktweets']",1
+13,"[""softbank's"", 'rework', 'financing', 'would', 'lead', 'adam', 'neumann', 'exitsources', 'reuters', 'via']",1
+14,"['the', 'day', 'imperious', 'dictatorial', 'ceos', 'rule', 'fear', 'intimidation', 'back', 'board', 'director', 'yes', 'men', 'crony', 'may', 'soon', '3', 'ceos', 'major', 'u', 's', 'business', 'show', 'door', 'week', 'rework', 'adam', 'neumann', 'bay', 'kevin', 'jul', 'kevin', 'burns']",1
+15,"['a', 'big', 'question', 'us', 'market', 'whether', 'rework', 'meltdown', 'tip', 'point', 'high', 'growth', 'profit', 'private', 'company', 'the', 'fallout', 'certainly', 'continue', 'massive', 'underperformance', 'among', 'fund', 'invest', 'company', 'one', 'mutual', 'fund', 'stand', 'sex', '1', '2']",1
+17,"['creator', 'creative', 'types', 'personality', 'test', 'illuminates', 'four', 'stage', 'creative', 'process']",2
+20,"['venezuelan', 'government', 'could', 'seek', 'confiscate', 'exile', 'home', 'rework', 'insider', 'slam', 'neumann', 'daily', 'digest']",1
+22,"['it', 'take', 'unique', 'mix', 'delusion', 'corruption', 'greed', 'romania', 'ignorance', 'produce', 'rework', 'disaster', 'i', 'think', 'comparison', 'business', 'pour', '18', 'billion', 'sheer', 'fantasy', 'only', 'government', 'typically']",1
+24,"['talk', 'multiple', 'many', 'zero', 'factor', 'probably', 'how', 'many', 'comma', 'number']",2
+25,"['rework', 'pull', 'thousand', 'phone', 'booth', 'service', 'formaldehyde', 'scare']",1
+26,"['rework', 'throw', 'towel', 'ill-fated', 'po']",1
+28,"['postbank', 'reveals', '6', '5', 'billion', 'loss', 'from', 'user', 'rework', 'turmoil']",1
+30,"['boston', 'fed', 'rosengarten', 'lower', 'rate', 'could', 'expose', 'work', 'company', 'like', 'rework', 'via']",1
+31,"['amazon', 'acquire', 'rework', 'would', 'another', 'power', 'move', 'global', 'domination', 'wonder', 'get', 'reasonable', 'price']",2
+34,"['elizabeth', 'holmes', 'jail', 'yet', 'but', 'i', 'start', 'think', 'rework', 'thermos', 'level', 'scam']",1
+35,"['many', 'thanks', 'one', 'event', 'sponsor', 'provide', 'chip', 'keep', 'belly', 'full']",2
+38,"['merry', 'somerset', 'webb', 'the', 'founder', 'rework', 'woodford', 'asset', 'management', 'able', 'jump', 'ship', 'rich', 'men']",2
+39,"['rework', 'meet', 'would', 'support', 'event', 'interest', 'venue', 'space', 'they', '5', 'barcelona', 'other', 'work', 'orcs', 'would', 'first', 'route']",2
+40,"['two', 'kind', 'will', 'compass', 'suffer', 'fate', 'rework']",1
+42,"['postbank', 'seek', 'control', 'rework', 'financing', 'package', 'w', 'via']",2
+43,"['rework', 'profile', 'company', 'crisis', 'ft', 'via']",1
+46,"['goldman', 'sachs', 'unloaded', 'rework', 'share', 'investment', 'banker', 'pitch', 'investor', 'consider', '60', 'billion-plus', 'po']",2
+50,"['rework', 'failure', 'postbank', 'day', 'of', 'reckoning', 'wired']",1
+51,"['without', 'new', 'cash', 'rework', 'unsustainable', ""n't"", 'constant', 'need', 'new', 'cash', 'definition', 'unsustainable', 'rework', 'could', 'run', 'out', 'of', 'cash', 'by', 'next', 'month', 'seeks', 'immediate', 'bail-out', 'zero', 'hedge']",1
+52,"['rework', 'mulling', 'either', 'downward', 'valuation', 'revision', 'outright', 'po', 'cancellation']",1
+53,"['founder', 'walk', 'away', '1', 'ibn', '4', '000', 'lose', 'job', 'today', 'cc']",1
+55,"['rework', 'bond', 'price', 'fall', 'postbank', 'question', 'ceo', 'marketaxess']",1
+56,"['schumpeter', 'rework', 'show', 'venture', 'capitalist', 'world', 'make-believe', 'via']",1
+57,['control'],2
+61,"['so', 'i', 'guess', 'mean', 'ibm', 'joint', 'venture', 'rework', 'either']",2
+62,"['using', 'gifs', 'reply', 'go', 'play', 'adam', 'neumann', 'rework', 'movie']",1
+63,"['rework', 'reportedly', 'cut', '2', '000', 'job', 'soon', 'week', 'staff', 'turn', 'adam', 'neumann']",1
+64,"['s', 'p', 'cites', 'concerns', 'rework', 'wont', 'be', 'able', 'fund', 'growth', 'plan']",1
+65,"['from', 'rework', 'staff', 'chat', 'slack', 'via']",2
+66,"['rework', 'plan', 'ramp', 'marketing', 'spend', 'go', 'public']",2
+67,"['corsham', 'street', 'today', 'pm', 'pm', 'register', 'potential', 'donor', 'save', 'someone', 'life']",2
+68,"['rework', 'concerns', 'seeping', 'into', 'singapore', 'real', 'estate', 'sector', 'bloomberg']",1
+69,"['postbank', 'reportedly', 'take', 'control', 'rework', 'here', 'run', 'list', 'japanese', 'giant', 'major', 'investment', 'tech']",2
+71,"['postbank', 'take', 'control', 'rework', 'w']",2
+72,"['rework', 'ceo', 'adam', 'neumann', 'step']",2
+73,"['rework', 'say', 'file', 'withdraw', 'po']",2
+74,"['postbank', 'ceo', 'say', 'rescue', 'investment', 'rework', 'debacle']",1
+75,"['mao', 'company', 'rent', 'office', 'space', 'rework', 'told', 'u', 'recall', 'phone', 'booth', 'workspace', 'elevate', 'level', 'formaldehyde']",1
+76,"['rework', 'seem', 'unicorn', 'unicorn', 'i', 'think', 'unravel', 'badly', 'too', 'much', 'hype', 'one']",1
+77,"['i', 'solution', 'folk', 'buy', 'hell', 'work']",2
+78,"['the', 'most', 'overvalued', 'world']",1
+79,"['los', 'esperamos', 'en', 'el', 'primo', 'workshop', 'de', 'management', '3', '0', 'que', 'llevaremos', 'cabo', 'en', 'el', 'rework', 'de', '81', 'los', 'da', '16', '17', 'de', 'november', 'inscríbete', 'participate', 'quieres', 'consular', 'en', 'qui', 'consists', 'este', 'workshop']",2
+80,"['rework', 'ceo', 'adam', 'neumann', 'tell', 'employee', 'humble', 'collapse', 'firm', 'po']",2
+82,"['scoop', 'adam', 'neumann', 'determine', 'reworks', 'fate']",2
+83,"['postbank', 'seek', 'avoid', 'reworks', 'liability', 'new', 'investment', 'source']",1
+84,"['explain', 'user', 'left', 'rework', 'why', 'tech', 'company', 'lose', 'money']",2
+85,"['the', 'outlook', 'public', 'debut', 'rework', 'rack', 'billion', 'dollar', 'loss', 'recent', 'year', 'company', 'fund', 'grand', 'ambition', 'cool', 'disappointment', 'major', 'ipos', 'year', 'left', 'inc', 'user', 'technologies', 'inc']",1
+86,"['nbc', 'rework', 'reportedly', 'expect', 'lay', '2', '000', 'worker', 'early', 'week', 'via']",1
+87,"['10', 'genomic', 'bump', 'po', 'price', 'range', 'rework', 'look', 'like', 'postbank', 'win']",2
+88,"['ceo', 'david', 'warn', 'growth', 'stock', 'like', 'via']",2
+89,"['save', 'date', 'working', 'women', 'wednesday', 'back', 'fall', 'we', 'kick', 'series', 'october', '16', 'you', 'want', 'miss', 'grab', 'girlfriend', 'meet', 'u', 'apollo', 'shaw', 'metro', 'station', 'register', 'at']",2
+90,"['thank', 'kind', 'word', 'daniel', 'wishing', 'best', 'make', 'sure', 'make', 'voice', 'heard']",2
+91,"['the', 'fact', 'i', 'opportunity', 'work', 'og', 'rework', 'qualifies', 'millennial', 'boy', 'scout', 'patch']",1
+92,"['it', 'valuation', 'quite', 'high', 'back', 'as', 'phil', 'broughton', 'note', 'last', 'week', 'rework', 'wasnt', 'completely', 'dumb', 'idea', '10', 'year', 'ago', 'real', 'estate', 'cheap', 'lot', 'people', 'work', 'enough', 'cash', 'dream']",3
+93,['whom'],2
+95,"['postbank', 'take', '80', 'ownership', 'rework', 'announces', '5', 'billion', 'new', 'financing', 'package']",2
+96,"['matador', 'set', 'po', 'term', '5', '9', 'billion', 'market', 'cap', 'price', 'middle', 'this', 'could', 'q4', 'version', 'zoom', 'overlook', 'say', 'favor', 'flashier', 'offering', 'left', 'user', 'rework', ""n't""]",2
+97,"['rework', 'flaw', 'offer', 'space', 'go', 'my', 'startup', 'send', 'dickhead', 'coworkers', 'house']",1
+98,"['jefferies', 'financial', 'group', 'earnings', 'take', 'hit', 'unlikely', 'source', 'drop', 'valuation']",1
+99,"['see', 'post', 'day', 'ago', 'rework', 'disintegrate']",1
+100,"['the', 'fall', 'reworks', 'adam', 'neumann']",1
+102,"['the', 's', 'p', '500', ""n't"", 'overvalue', 'rework', 'user', 'tessa', 'legitimately', 'multimillion', 'dollar', 'company', 'they', 'sock', 'puppet', 'mascot', 'so', 'impressed', 'amount', 'rigor', 'apply', 'institutional', 'equity', 'market', 'analyst', 'self-serving', 'sheep']",1
+103,"['it', 'pay', 'soon', 'i', 'smile', 'for', 'believe', 'stay', 'tune']",3
+105,"['ibm', 'even', 'sure', 'business', 'need', 'make', 'money', 'vcs', 'business', 'funding', 'company', 'hope', 'someday', 'become', 'profitable', 'i', 'think', 'real', 'story', 'grossly', 'postbank', 'mismanage', 'rework', 'this', 'come', 'surprise']",1
+106,"['rework', 'trouble', 'leave', 'door', 'open', 'landlord']",1
+107,"['bye', 'bye', 'stay', 'private', 'let', 'postbank', 'pay', 'loss', 'we', 'want']",1
+109,"['rework', 'delay', 'ibn', 'po', 'struggle', 'interest', 'investor']",1
+110,"['oracle', 'founder', 'larry', 'ellison', 'calls', 'user', 'rework', 'almost', 'worthless', 'via']",1
+112,"['taken', 'rework', 'incredibly', 'important', 'development', 'the', 'success', 'big', 'unicorn', 'use', 'evidence', 'raise', 'ten', 'billion', 'dollar', 'new', 'vc', 'fund', 'justify', 'countless', 'new', 'start-ups']",2
+113,"['hotel', 'push', '1', 'billion', 'highlight', 'landlord', 'as', 'stumbles', 'its', 'smaller', 'competitors', 'cash', 'in', 'read']",1
+115,"['accounting', 'manager', 'ventures', 'london', 'united', 'kingdom', 'rework', 'the', 'ventures', 'accounting', 'manager']",2
+116,"['do', 'compass', 'and', 'open-door', 'have', 'a', 'rework', 'problem']",1
+119,[],2
+121,"['nut', 'uh']",2
+123,"['rework', 'worry', 'weak', 'wife', 'security', 'create', 'much', 'risk', 'make', 'sure', 'protect', 'information']",1
+124,"['we', 'rework', 'may', 'drop', 'valuation', '20', 'dow', 'jones']",1
+125,"['rework', 'new', 'chairman', 'say', 'job', 'cut', 'come', 'internal', 'memo']",1
+126,"['once', 'puppy', 'appear', 'i', 'lose', 'interest', 'rework']",2
+127,"['postbank', 'reportedly', 'press', 'package', 'take', 'control', 'rework', 'parent']",2
+129,"['reworks', 'ceo', 'adam', 'neumann', 'is', 'out', 'here', 'why', 'about', 'more', 'than', 'just', 'po']",2
+130,"['a', 'huge', 'thanks', 'partner', 'like', 'enable', 'u', 'connect', 'young', 'people', 'business', 'monitoring', 'our', 'partner', 'share', 'belief', 'young', 'people', 'power', 'change', 'world', 'find', 'support']",1
+131,"['how', 'going', 'woke', 'makes', 'companies', 'like', 'california', 'utilities', 'and', 'rework', 'go', 'broke']",1
+132,"['good', 'coffee', 'nice', 'light', 'stairwell', 'desk']",3
+133,"['financing', 'package', 'could', 'also', 'mean', 'financing', 'trip', 'bankruptcy', 'try', 'buy', 'whole', 'thing', 'shed', 'unattractive', 'liability', 'say']",1
+135,"['name', 'company', 'important', 'we', 'confuse', 'name', 'it', 'lead', 'sentence', 'like', 'we', 'confirm', 'mr', 'neumann', 'ouster', 'the', 'wall', 'street', 'journal', 'report', 'without', 'give', 'detail', 'in', 'sentence', 'we', 'refers', 'rework', 'w']",2
+137,"['new', 'top', 'story', 'hacker', 'news', 'deals', 'postbank', 'plans', 'b', 'rescue', 'financing', 'rework']",2
+138,"['forget', 'rework', 'threatens', 'entire', 'economy']",1
+139,"['rework', 'may', 'cut', 'po', 'valuation', 'billion', 'rework', 'one', 'high-profile']",1
+140,"['from', 'hot', 'to', 'not', 'a', 'tideline', 'of', 'rework', 'po', 'implosion', 'via']",1
+142,"['executive', 'race', 'city', 'city', 'attempt', 'win', 'increasingly', 'skeptical', 'investor']",2
+143,"['hash', 'trending', 'stream', 'rework', 'issue', 'n', 'via']",1
+144,"['i', 'tell', 'the', 'rework', 'beat', 'use', 'calmer']",2
+145,"['oh', 'shit', 'rework', 'lawyer', 'call', 'say', 'infringe', 'trademark', 'previous', 'tweet', 'go', 'sue', 'u', 'put', 'follow', 'statement', 'go', 'we', 'firmly', 'believe', 'rework', 'great', 'company', 'buy', 'po']",1
+146,"['mass', 'folly', 'how', 'rework', 'differs', 'from', 'user', 'and', 'air']",2
+148,"['we', 'wonderful', 'event', 'yesterday', 'hosted', 'partner', 'looking', 'forward', 'tonight', 'pm', 'pst', 'stay', 'tune', 'follow', 'along', 'event']",3
+149,"['postbank', 'seek', 'avoid', 'reworks', 'liability', 'new', 'investment', 'source', 'new', 'york', 'reuters', 'postbank', 'group', 'corp', '9984', 't', 'attempt', 'become', 'majority', 'owner', 'rework', 'without', 'assume', 'onerous']",1
+150,"['greedy', 'po', 'proceeds', 'even', 'fear']",1
+151,"['rework', 'could', 'run', 'out', 'money', 'next', 'month', 'report', 'gizmo', 'rework', 'could', 'run', 'out', 'money', 'next', 'month', 'report', 'gizmo', 'rework', 'said', 'be', 'talks', 'with', 'lenders', 'over', 'b', 'debt', 'package', 'bloomberg', 'technology', 'rework', 'run', 'cash', 'quartz', 'rework', 'could']",1
+152,"['this', 'piece', 'chockfull', 'incredible', 'quote', 'don', 'know', 'clip', 'this', 'paragraph', 'precious', 'though', 'will', 'rework', 'spell', 'end', 'illusion', 'distressed', 'asset', 'i', 'wonder']",1
+153,"['tune', 'right', 'info', 'futures', 'conference', 'happen', 'saturday', '10', '5']",2
+154,"['i', 'waste', 'hour', 'work', 'today', 'sit', 'toilet', 'reading', 'sweet', 'then', 'i', 'realize', 'hour', 'i', 'make', 'combine', 'profit', 'teslauberlyftwayfairweworkostk', 'i', 'might', 'god-king']",1
+156,"['postbank', 'reportedly', 'end', 'rework', 'ownership', 'debacle', 'potential', '1', '7', 'billion', 'windfall', 'adam', 'neumann']",1
+157,"['please', 'buy', 'one', 'toy', 'homeless', 'child', 'postbank', 'take', 'control', 'rework', 'w', 'see']",2
+158,"[""softbank's"", 'plan', 'second', 'megafauna', 'hit', 'rework', 'debacle']",1
+159,"['more', 'evidence', 'expose', 'rework', 'economic', 'slowdown']",1
+161,"['another', 'zombie', 'industry']",1
+162,"['reworks', 'po', 'filing', 'audacious', 'prospectus', 'ever', 'see', 'company', 'disrupts', 'big', 'industry', 'double', 'revenue', 'every', 'year', 'but', 'exposure', 'economic', 'risk', 'valuation', 'absolute', 'founder', 'control', 'simply', 'extraordinary']",2
+163,"['slack', 'stock', 'downhill', 'interest', 'static', 'reworks', 'valuation', 'downgrade', 'underwriter', 'po', 'so', 'i', 'see', 'silver', 'line']",1
+164,"['founder', 'make', 'best', 'business', 'move', 'yet', 'quit', 'via']",1
+165,"['goldman', 'take', 'l', 'rework', '80', 'million', 'goldman', 'hold', 'bag', 'make', 'feel', 'great']",1
+166,"['rework', 'allege', 'pregnancy', 'discrimination', 'jul', 'meltdown', 'cost', 'atrium', '4', '5', 'billion', 'leon', 'cooperman', 'take', 'elizabeth', 'warren', 'today', 'yearbook', 'briefing']",1
+167,"['we', 'valuation']",2
+168,"['now', 'rework', 'crash', 'might', 'resolve']",1
+170,"['vc', 'ben', 'horowitz', 'rework', 'user', 'one', 'cultural', 'value', 'employee', 'break', 'techcrunch']",2
+171,"['provide', 'lifeline']",2
+172,"['rework', 'selling', 'conductor', 'company', 'layoffs', 'possible', 'via', 'martinibuster']",2
+173,"['now', 'rework']",2
+175,"['adam', 'neumann', 'fly', 'high', 'literally', 'rework', 'month', 'away', 'value', '47', 'billion', 'revenue', 'double', 'annually', 'and', 'mr', 'neumann', 'zip', 'across', 'atlantic', 'ocean', 'gulfstream', 'g60', 'private', 'jet', 'smoking', 'marijuana']",1
+176,"['this', 'seem', 'obviously', 'smart', 'long', 'term', 'they', 'need', 'people', 'stop', 'shovel', 'money', 'unprofitable', 'competitor', 'need', 'take', 'short', 'term', 'hit', 'throw', 'fuel', 'fire', 'rework', 'start', 'thats', 'trainer']",2
+177,"['an', 'enormous', 'new', 'fund', 'po', 'plan', 'pizza', 'executive', 'move', 'pe', 'join', 'ongoing', 'saga', 'recap', 'week']",2
+178,"['nva', 'this', 'stock', 'go', '23', '2015', '5', '2018', 'turds', 'unsustainable', 'business', 'model', 'finance', 'endless', 'shareholder', 'cash', 'infusion', 'fly', 'far', 'fall', 'earth']",1
+179,"['rework', 'first', 'work', 'company', 'found', '2010']",2
+181,"['easy', 'rework', 'all', 'u']",2
+182,"['postbank', 'seek', 'control', 'rework', 'financing', 'package', 'source', 'article', 'amp', 'reuters']",2
+183,"['i', 'like', 'postbank', 'rework', 'drama', 'i', 'guess', 'another', 'one', 'funny', 'update', 'still', 'come', 'forward']",2
+184,"['the', 'rework', 'reference']",2
+186,"['new', 'article', 'without', 'deal', 'rework', 'would', 'money', 'next', 'month', 'source', 'say', 'october', '23', '2019']",2
+187,"['phoenix', 'news', ""softbank's"", 'massive', 'rework', 'bail-out', 'hand', 'oust', 'founder', '1', '7', 'billion', 'golden', 'parachute', 'cnn']",2
+189,"['2', 'big', 'number', '4', 'billion', '47', 'billion', 'sum', 'reworks', 'business', 'model', 'risky', 'reason', 'could', 'collapse', 'recession']",1
+191,"['reread', 'decline', 'offer', 'email', 'rework']",2
+193,"['business', 'insider', 'reworks', 'valuation', 'could', 'reportedly', 'slip', '8', 'billion', 'part', ""softbank's"", 'propose', 'bail-out', 'embattle', 'company']",2
+194,"['why', 'we', 'sold', 'postbank', 'stay']",2
+195,"['rework', 'landlord', 'buckle']",2
+198,"['the', 'ceo', 'own', 'real', 'estate', 'separate', 'rework', 'company', 'lease', 'property', 'rework', 'when', 'company', 'go', 'neumann', 'still', 'property']",2
+199,"['tomorrow', 'sept', '17', '79', 'pm', 'i', 'give', 'talk', 'the', 'autumn', 'winter', 'months', '2019', 'peek', '2020', '902', 'broadway', 'event', 'open', 'member', 'non-members', 'ticket', '45', 'tit', 'sell', 'left', 'lots', 'q', 'a', 'tt', 'call']",2
+200,"['summary', 'reworks', 'plan', 'shift', 'focus', 'business', 'already', 'successful', 'enough', 'need', 'shorter', 'term', 'flexibility', 'rework', 'sell']",2
+201,"['postbank', 'reworks', 'largest', 'investor', 'takes', 'control', 'embattled', 'office', 'company', 'with', 'co-founder', 'adam', 'neumann', 'stepping', 'down']",2
+203,"['rework', 'ceo', 'adam', 'neumann', 'expect', 'step', 'remain', 'non-executive', 'chairman', 'via']",2
+204,"['will', 'next', 'panicked', 'headline', 'rework', 'user', 'snapshot']",1
+205,"['hopeful', 'rework', 'add', 'woman', 'board', 'ceo', 'return', 'u', 'mm', 'backlash', 'the', 'business', 'times']",2
+206,"['beida', 'bullshit', 'begin', 'developed', '80', 'value', 'distress', 'company', 'ubiquitous', 'metric', 'ask', 'rework', 'pay', 'bill', 'community', 'adjusted', 'beida']",2
+207,"['rework', 'ousted', 'c', 'e', 'o', 'adam', 'neumann', 'sidelined', 'pregnant', 'employee', 'she', 'claims']",1
+208,"['the', 'real', 'story', 'we', 'work', 'data', 'mining', 'hundred', 'thousand', 'company', 'rent', 'office', 'space', 'people', 'work', 'imagine', 'value', 'information', 'country', 'like', 'say', 'china']",1
+209,"['rework', 'delays', 'po', 'after', 'realizing', 'investors', 'may', 'not', 'be', 'that', 'interested']",2
+210,['next'],2
+211,"['adam', 'neumann', 'reportedly', 'busy', 'surf', 'maldives', 'return', 'new', 'york', 'go', 'reworks', 'po', 'paperwork', 'employee', 'travel']",1
+212,"['wall', 'street', 'give', 'adam', 'neumann', '500', 'million', 'go', 'pay', 'back', 'reworks', 'po', 'now', 'offering', 'pull', 'bank', 'scramble', 'hammer', 'solution']",2
+214,"['postbank', 'reportedly', 'end', 'rework', 'ownership', 'debacle', 'potential', '1', '7', 'billion', 'windfall', 'adam', 'neumann', 'techcrunch']",2
+215,"['just', 'in', 'rework', 'plan', 'list', 'nasdaq', 'the', 'company', 'also', 'say', 'want', 'make', 'change', 'propose', 'governance', 'structure', 'name', 'lead', 'independent', 'director', 'end', 'year']",2
+216,"['rework', 'po', 'spell', 'rough', 'land', 'ceo', 'neumann', 'reuters']",1
+218,"['pod', 'quote', 'day', 'anytime', 'say', 'back', 'napkin', 'legit', 'so', 'note', 'shelby', 'music', 'row']",2
+219,"['listen', 'live', 'james', 'max', 'ttp', 'talkradio', 'co', 'uk', 'live', 'our', 'currency', 'round', 'loose', 'change', 'rework', 'multibilliondollar', 'postbank', 'rescue', 'ways', 'help', 'sandwich', 'generation']",2
+221,"['rework', 'slash', 'valuation', 'half', '47', 'billion', 'little', '20', 'billion', 'makes', 'wonder', 'possibly', 'justified', 'former', 'true', 'price', 'floor', 'willing', 'settle', 'latter']",1
+222,"['primo', 'verne', 'en', 'rework']",2
+224,"['postbank', 'ceo', 'say', 'rescue', 'investment', 'rework', 'debacle']",1
+225,"['firing', 'adam', 'neumann', 'solve', 'rework', 'their', 'entire', 'business', 'model', 'ponti', 'scheme']",1
+226,"['congrats', 'welcome', 'nec', 'see', 'next', 'week']",2
+227,"['despite', 'trouble', 'share', 'flex', 'office', 'stay']",1
+228,"['rework', 'loses', 'chief', 'communication', 'officer', 'ahead', 'plan', 'po']",2
+229,"['rework', 'pull', 'public', 'offering', 'fairish', 'pewter']",2
+230,"['who', 'loses', 'po', 'implosion']",1
+231,"['chicagobars', 'rework', 'say', 'hi', 'teddy']",2
+232,"['this', 'stretch', 'only', 'small', 'handful', 'rest', 'exposure', 'rework', 'minimal']",2
+233,"['rework', 'downgraded', 'ccc', 'fitch', 'following', 'po', 'withdrawal', 'rework', 'weighs', 'fullback', 'in', 'china', 'dj', 'says', 'is', 'code', 'filing', 'bankruptcy']",1
+234,"['funny', 'timing', 'search', 'could', 'name', 'manufacturer', 'anywhere', 'one', 'receive', 'negative', 'press']",2
+235,"['reworks', 'fall', 'lose', 'nearly', '40', 'billion', 'value', 'mark', 'stun', 'collapse', 'little', 'precedent', 'malta', 'de', 'transparency', 'el', 'emperor', 'queen', 'sin', 'rope', 'arena', 'tuva', 'que', 'presenter', 'el', 's1', 'por', 'eso', 'hay', 'que', 'ver', 'mr', 'del', 'humo', 'y', 'se', 'suede']",1
+236,"['rework', 'po', 'spell', 'rough', 'land', 'ceo', 'neumann', 'top']",1
+237,"['we', 'approach', 'landlord', 'owner', 'building', 'want', 'work', 'asset', 'turn', 'away', 'rework', 'toward', 'company', 'sustainable', 'business', 'model', 'worker', 'ceo', 'sarah', 'travers', 'say']",1
+238,"['rework', 'tough', 'sunday', 'business', 'post', 'via']",3
+239,"['digitalchamber', 'rework', 'prof', 'venture', 'capitalism', 'work']",3
+240,"['new', 'top', 'story', 'hacker', 'news', 'the', 'rework', 'story', 'bizarre', 'even', 'get', 'outrage']",2
+241,"['rework', 'rt', 'genuine', 'accountability', 'unfashionable', 'right']",1
+242,"['rework', 'reportedly', 'getting', 'into', 'sport', 'play', 'by', 'we', 'which', 'could', 'rent', 'its', 'office', 'space', 'professional', 'gaming', 'events']",2
+243,"['top', 'story', 'pwillemarck', 'some', 'rework', 'board', 'members', 'seek', 'remove', 'adam', 'neumann', 'ceo', 'w', 'see']",2
+244,"['rework', 'say', 'divest', ""'noncore'"", 'business']",2
+247,"['still', 'wait', 'pay', 'u', 'invoice', '2', 'year', 'ago', 'yet', 'continue', 'collect', 'rent', 'u', 'get', '1', 'point', 'something', 'billion', 'dollar', 'payout']",1
+248,"['attention', 'young', 'professional', ""don't"", 'miss', 'opportunity', 'network', 'business', 'professional', 'month', 'free', 'upcoming', 'chamber', 'connection', 'rework', 'register']",2
+251,"['the', 'rework', 'security', 'always', 'look', 'homeless', 'person', 'walk', 'dev', 'square', 'maybe', 'i', 'need', 'bounce', 'gym', 'clothes']",1
+252,"['watch', 'alistair', 'elliott', 'senior', 'partner', 'group', 'chairman', 'speak', 'uk']",2
+254,"['looks', 'great', 'would', 'happy', 'host']",2
+255,"['rework', 'ceo', 'steps', 'down', 'as', 'company', 'reportedly', 'considers', 'layoffs', 'crunchbase', 'news']",2
+257,"['run', 'ponti', 'scheme']",1
+258,"['vcs', 'complicit', 'pump', 'n', 'dump', 'crime']",1
+259,"['what', 'happens', 'rework', 'run', 'cash']",2
+260,"['rework', 'look', 'sell', 'spin', 'acquisition', 'include', 'firm', 'conductor']",2
+261,"['if', 'wake', 'casper', 'mattress', 'work', 'peloton', 'breakfast', 'user', 'desk', 'rework', 'doordash', 'lunch', 'take', 'left', 'home', 'get', 'dinner', 'postulate', 'interact', 'seven', 'company', 'collectively', 'lose', 'nearly', '14', 'billion', 'year']",1
+265,"['huge', 'breaking', 'news', 'report', 'rework', 'actually', 'head', 'compete', 'air', 'whole', 'time', 'home', 'share', 'company', 'what', 'scoop', 'seriously', 'copy', 'edit', 'thing', 'mistake', 'first', 'sentence']",2
+266,"['we', 'thrill', 'host', 'important', 'workshop', 'hq', '2', 'day', 'personal', 'safety', 'training', 'workshop', 'non', 'binary', 'officially', 'underway']",2
+267,"['well', 'i', 'know', 'would', 'i', 'would', 'zia', 'home', 'alone', 'x']",2
+268,"['rework', 'accepts', 'postbank', 'takeover', 'offer']",2
+269,"['postbank', 'value', 'rework', 'below', '8', 'billion', 'mark', 'financial', 'rescue', 'plan', 'after', 'funding', 'rework', '47', 'billion', 'valuation', 'january', 'postbank', 'set', 'rescue', 'office', 'share', 'company', 'financing', 'plan', 'value', 'company', '8']",2
+271,"['hmmm', 'rework', 'bay', 'wells', 'fargo', '2019', 'see', 'mass', 'exodus', 'ceos', 'us']",2
+272,"['rework', 'look', 'sell', 'spin', 'acquisition', 'include', 'firm', 'conductor']",2
+273,"['given', 'information', 'investor', 'line', 'participate', 'say', 'capital', 'market']",2
+274,"['rework', 'parent', 'company', 'reportedly', 'delay', 'idiotic', 'po', 'plan']",1
+276,"['platform', 'curated', 'tweet', 'short', 'seller', 'snap', 'rework', 'debt', 'amid', 'concern', 'future']",1
+277,"['thus', 'tale', 'company', 'call', ""could've"", 'great', 'another', 'clown', 'many', 'pipe', 'hate', 'many', 'lesson', 'learn', 'keep', 'company', 'trouble', 'what', 'take', 'away', 'make', 'sure', 'pop', 'bubble']",1
+278,"['1', '2', 'wholeheartedly', 'disagree', 'fast', 'company', 'piece', 'genius', 'refer', 'reworks', 'ceo', 'leon', 'mush', 'co', 'genius', 'always', 'exist', 'it', 'specific', 'startup', 'culture', 'darwin', 'alexander', 'von', 'humboldt', 'seneca', 'visionary', 'push', 'culture', 'forward']",1
+279,"['rework', 'darling', 'startup', 'world', 'long', 'ago', 'entire', 'company', 'image', 'gutter', 'every', 'article', 'since', 'announce', 'intention', 'go', 'public', 'negative', 'you', 'say', 'caught', 'musk']",1
+280,"['rework', 'expect', 'sack', 'least', '2', '000', 'people', 'soon', 'week', 'angry', 'staff', 'troubled', 'office', 'rental', 'company', 'turn', 'co-founder', 'adam', 'neumann']",1
+281,"['rework', 'weighs', 'slashing', 'valuation', 'more', 'than', 'half', 'amid', 'po', 'skepticism', 'ok', 'overvalue', '50', '100']",1
+282,"['ceos', 'exit', 'record', 'pace', 'rework', 'jul', 'bay', 'boss', 'last', '24', 'hour']",2
+283,"['kaiser', 'report', 'rework', 'never', 'forget', ' 1443', 'via']",2
+284,"['reworks', 'startup', 'party', 'end', '2', '000', 'job', 'set', 'cut']",1
+286,"['rework', 'rein', 'ceo', 'adam', 'neumann', 'save', 'po', 'axis']",1
+287,"['start', 'pool', 'po', 'come', 'first', 'franco', 'rework']",2
+288,"['after', 'po', 'debacle', 'i', 'miss', 'something', 'start', 'spending', 'via']",1
+289,"['rework', 'weighs', 'slashing', 'valuation', 'more', 'than', 'half']",1
+290,"['how', 'reworks', 'adam', 'neumann', 'became', 'billionaire', 'the', 'atlantic']",2
+291,"['yu', 'professor', 'scott', 'galloway', 'say', 'era', 'start-ups', 'grow', 'cost', 'come', 'close', 'mean', 'user', 'likely', 'go', 'change', 'business', 'model']",2
+293,"['rework', 'is', 'exposing', 'astronomical', 'amount', 'data', 'poorly', 'protected', 'wife', 'network']",1
+295,"['rework', 'latest', 'threat', 'oldschool', 'landlords', 'trying', 'copy', 'rework']",2
+296,"['business', 'insider', 'make', 'documentary', 'unravel', 'world', 'valuable', 'startup', 'hit', 'netflix', 'producer', 'business', 'insider']",3
+297,"['yep', 'rework', 'po', 'failure', 'fallout']",1
+298,"['when', 'postbank', 'bail', 'rework', 'day', 'week', 'ago', 'st', 'thing', 'come', 'mind', 'postbank', 'somehow', 'sell', 'business', 'asset', 'regis', 'something', 'i', 'dunno']",2
+299,"['tequila', 'private', 'jet', 'fundic', 'adam', 'neumann', 'built', 'rework', 'unique', 'way', 'struggle', 'translate', 'success', 'po', 'my', 'drunken', 'pot', 'fine', 'meat', 'building', 'dismissive', 'offense', 'a', 'primary', 'diet', 'tequila', 'mj']",1
+300,"['daily', 'crunch', 'rework', 'ceo', 'face', 'investor', 'pressure']",2
+301,"['the', 'remarkable', 'rise', 'epic', 'fall', 'rework', 'charismatic', 'controversial', 'founder']",2
+302,"['the', 'petty', 'rework', 'get', 'cancel', 'reject', 'without', 'interview']",1
+304,"['i', 'tell', 'long', 'hypothesize', 'work', 'recession', 'proof', 'exact', 'reason', 'mention', 'problem', 'never', 'test']",2
+305,"['rework', 'work', 'business', 'value', '47', 'billion', 'expect', 'announce', 'significant', 'layoff', 'month', 'bloomberg', 'report', 'this', 'follow', 'report', 'company', 'look', 'slash', 'many', '5', '000', 'role', 'one-third', 'workforce']",2
+306,"['the', 'tokyo', 'conglomerate', 'reworks', 'big', 'investor', 'spending', 'billion', 'deal']",2
+307,"['this', 'good', 'metaphor', 'entire', 'rework', 'situation']",2
+308,"['former', 'employee', 'rework', 'share', 'story', 'adam', 'neumann', 'run', 'around', 'barefoot', 'yell', 'employee', 'demand', 'case', 'tequila']",1
+309,"['saudi', 'mbs', 'interested', 'takeover', 'looks', 'like', 'postbank', 'look', 'old', 'trafford', 'new', 'space', 'game']",2
+310,"['literally', 'every', 'single', 'day', 'life', 'i', 'work', 'rework', 'office']",1
+311,"['new', 'post', 'rework', 'withdraws', 's1', 'filing', 'delay', 'po', 'techcrunch', 'publish', 'tech', 'news', '247']",2
+312,"['postbank', 'backers', 'rethink', 'role', 'next', 'vision', 'fund', 'rework']",2
+313,"['rework', 'board', 'accepts', 'postbank', 'rescue', 'deal', 'source', 'reuters']",2
+314,"['what', 'next', 'rework', 'how', 'adam', 'neumann', 'fix', 'bungle', 'po']",2
+318,"['rework', 'downgrade', 'fitch', 'po', 'trouble']",2
+319,"['stop', 'rework', 'deal', 'cramer', 'say', 'embattle', 'could', 'wreck', 'stock', 'market', 'rally', 'nbc']",2
+320,"['rework', 'po', 'filing', 'withdrawn', 'roadshow', 'leads', 'dead', 'end', 'rework', 'throw', 'towel', 'acknowledge', 'many', 'street', 'already', 'predict', 'rework', 'work', 'at', 'least', 'right', 'the', 'highlyscrutinized', 'work', 'company', 'announce', 'mond']",1
+323,"['i', 'checked', 'connect', 'room', 'fill', 'socially', 'creative', 'mind', 'socialleadership']",3
+325,"['me', 'to', 'rework', 'eats']",2
+326,"['reworks', 'neumann', 'step', 'ceo', 'give', 'control']",2
+327,"['they', 'kind', 'lie', 'they', 'try', 'make', 'rework', 'look', 'like', 'tech', 'company', 'still', 'actually', 'real', 'state', 'company']",1
+328,"['postbank', 'share', 'fall', 'rework', 'deal', 'add', 'financial', 'strain']",1
+329,"['rework', 'prof', 'venture', 'capitalism', 'work']",3
+330,"['rework', 'delay', 'po', 'focus', 'core', 'business']",2
+331,"['my', 'answer', 'why', 'postbank', 'want', 'rework', 'po']",2
+332,"['new', 'story', 'rework', 'ceo', 'steps', 'down', 'as', 'po', 'stalls']",2
+333,"['yes', 'diversification', 'ignores', 'clear', 'commonality', 'these', 'junky', 'credit', 'if', 'would', 'borrowing', 'clo', 'market', 'this', 'rework', 'failure', 'noteworthy', 'they', 'exit', 'private', 'equity', 'junk', 'get', 'close', 'the', 'pipeline', 'nowhere', 'go']",2
+335,"['rework', 'thermos', 'scandals', 'haunt', 'female', 'startup', 'ceos']",1
+336,"['rework', 'could', 'run', 'cash', 'mid-november', 'here', 'would', 'happen', 'next']",1
+338,"['τεχνολογία', 'reworks', 'new', 'chairman', 'defends', 'payouts', 'founder', 'say', 'company', 'survive']",3
+339,"['the', 'documentary', 'war', 'plastic', 'screen', 'collaboration', 'zero', 'waste', 'london', 'shock', 'really', 'get', 'think', 'ibm', 'way', 'make', 'bathroom', 'interested', 'find', 'process', 'recycle']",2
+340,"['new', 'best', 'story', 'hacker', 'news', 'today', 'some', 'rework', 'board', 'members', 'seek', 'remove', 'adam', 'neumann', 'ceo']",1
+342,"['our', 'history', 'rework', 'building', 'allows', 'team', 'member', 'open', 'office', 'work', '3', 'different', 'common', 'area', 'plenty', 'phone', 'booth', 'book', 'meeting', 'room', 'we', 'really', 'appreciate', 'flexibility', 'access', 'private', 'space', 'take', 'call', 'get', 'work', 'do']",3
+343,"['rework', 'might', 'be', 'a', 'zombie', 'unicorn', 'postbank', 'should', 'probably', 'let', 'dead']",1
+344,"['bbc-b', 'update', 'postbank', 'report', 'first', 'quarterly', 'loss', '14', 'year', 'the', 'bos', 'postbank', 'masayoshi', 'son', 'admit', 'poor', 'judgement', 'relation', 'investment', 'rework', 'reporting', 'first', 'quarterly', 'loss', '14', 'year', 'we', 'get', 'susan', 'sc']",1
+349,"['going', 'take', 'lot', 'temporary', 'stop', 'account', 'dude', 'eee-eee']",2
+350,"['could', 'possibly', 'pre', 'money', 'thats', 'like', '33', 'article', 'like', 'big', 'number', 'must', 'post', 'money', ""you'se"", '100', 'right', 'need', 'specify']",2
+351,"['rework', 'long', 'road', 'rehabilitation', 'start', 'ditch', 'co-founder']",2
+352,"['reworks', 'adam', 'neumann', 'offer', 'package', 'worth', '1', '7', 'billion', 'step', 'board', 'ridiculous', 'must', 'worth', 'postbank', 'get', 'rid', 'neumann']",2
+354,"['is', 'next', 'rework']",2
+355,"['rework', 'cut', '4', '000', 'job', 'payroll', 'strategy', 'business']",1
+356,"['rework', 'launch', 'po', 'roadshow', 'soon', 'tuesday', 'source']",2
+357,"['at', 'least', 'get', 'see', 'run', 'dc', 'announce', 'many', 'would', 'fire']",2
+358,"['postbank', 'double', 'rework', 'investment']",2
+359,"['rework', 'pushes', 'back', 'i', 'p', 'o', 'after', 'chilly', 'reception', 'from', 'investors']",1
+360,"['i', 'see', 'lot', 'people', 'play', 'status', 'game', 'around', 'thing', 'honestly', 'i', 'love', 'time', 'rework', 'i', 'met', 'lot', 'good', 'people', 'learnt', 'lot', 'get', 'good', 'coffee', ""let's"", 'reduce', 'everything', 'neumann', 'fly', 'around', 'he', 'vision', 'built', 'something', 'great']",3
+362,"['so', 'clarify', 'rework', 'apparently', 'welfare', 'rich', 'white', 'men', 'point']",1
+364,"['postbank', 'lose', 'billion', 'dollar', 'rework', 'did', 'anyone', 'make', 'money', 'were', 'investor', 'able', 'sell', 'share', 'postbank', 'profit']",2
+365,"['cc', 'user', 'rework']",2
+367,"['rework', 'chase', 'new', 'financing', 'cash', 'crunch', 'loom']",2
+369,"['rework', 'reportedly', 'shelve', 'po', 'last-minute', 'decision', 'weak', 'investor', 'interest']",2
+370,"['rising', 'risk', 'postbank', 'draw', 'concern', 'investor', 'conglomerate', 'nearly', '10', 'billion', 'bail-out', 'rework', 'via']",1
+373,"['rework', 'rival', 'wig', 'look', 'sell', 'canadian', 'operation']",2
+374,"['value', 'rework', 'one', 'sentence', 'already', 'ridiculous']",1
+375,"['air', 'rework', 'problem']",1
+378,"['postbank', 'take', 'control', 'rework', 'part', 'bail-out', 'adam', 'neumann', 'leave', 'board', 'the', 'japan', 'times']",1
+379,"['in', 'hind', 'sight', 'reworks', 'big', 'fail', 'may', 'file', 'po', 'ico']",1
+380,"['report', 'rework', 'expect', 'cut', '500', 'tech', 'role']",1
+381,"['reworks', 'adam', 'neumann', 'quits', 'chief', 'executive', 'he', 'attempt', 'prosper', 'conflict', 'loses']",1
+382,"['postbank', 'ceo', 'explanation', 'rework', 'investment', 'fiasco', 'fall', 'deaf', 'ear']",1
+383,"['rework', 'accepts', 'lifeline', 'from', 'postbank', 'ending', 'weeks', 'uncertainty']",2
+385,"['bold', 'prediction', 'day', 'adam', 'neumann', 'golden', 'parachute', 'look', 'like', 'absolute', 'bargain', 'ten', 'year', 'massive', 'amount', 'value', 'rework', 'able', 'generate', 'real', 'leader', 'without', 'dempster', 'fire', 'corporate', 'governance', 'structure']",3
+386,"['exclusive', 'rework', 'owner', 'creates', 'committee', 'decide', 'financing', 'lifeline', 'top']",2
+387,"['needs', '140', 'character', 'main', 'point', 'selfmarked', 'private', 'valuation', 'eg', 'rework', 'park', 'capital', 'risk', 'v', 'directs', 'management', 'others', 'benefit', 'mm', 'heavy', 'hand', 'selfmarked', 'public', 'directs', 'work', 'size', 'algorithmicallytraded']",2
+388,"['opinion', 'here', 'firm', 'postbank', 'stock', 'rework', 'debacle']",1
+389,"['milkshake', 'today']",2
+392,"['the', 'rise', 'fall', 'reworks', 'valuation', 'shine', 'spotlight', 'risk', 'insiderled', 'round', 'firm', 'reinvest', 'one', 'portfolio', 'company', 'high', 'price', 'tag']",2
+393,"['band', 'implore', 'another', 'weworklike', 'example', 'world', 'might', 'become', 'rational', 'reggie', 'burger', 'wow', 'innovative', 'impossible', 'duplicate']",1
+395,"['never', 'make', 'dime', 'profit', 'everyone', '2', 'iq', 'know', 'place', 'run', 'drunk', 'barely', 'qualify', 'rush', 'chairman', 'sigma', 'nu']",1
+397,"['i', 'highly', 'doubt', 'i', 'bet', 'get', 'pink', 'mobile', 'paid', 'least', 'rental', 'which', 'mean', 'subscriber', 'paid', 'not', 'wrong', 'sting', 'mobile', 'suck', 'ceo', 'sits', 'twitter', 'day', 'now', 'pontoon', 'boat']",1
+399,"['community', 'lead', 'sales', 'queens', 'new', 'york', 'new', 'york', 'united', 'states', 'america', 'rework', 'about']",2
+400,"['group', 'masayoshi', 'son', 'say', 'valuation', 'user', 'plunge', 'interview', 'nikkei', 'business', 'magazine', 'monday', 'morning', 'the', 'result']",2
+401,"['pentonville', 'rework', 'still', 'go']",2
+402,"['what', 'it', 'like', 'be', 'stuck', 'inside', 'wreckage', 'rework']",1
+403,"['neumann', 'learn', 'master']",2
+406,"['top', 'story', 'some', 'rework', 'board', 'members', 'seek', 'remove', 'adam', 'neumann', 'ceo', 'w', 'see']",2
+408,"['this', 'little', 'notruescotsman', 'taste', 'we', 'invent', 'ionize', 'model', 'rework', 'postbank', 'follow', 'ill', 'note', 'user', 'rework', 'turn', 'exact', 'amount', 'profit', 'user', 'could', 'easily', 'fail', 'way']",1
+409,"['rework', 'lessons', 'that', 'apply', 'to', 'lots', 'stuff', 'via']",2
+410,"['rework', 'could', 'venture', 'capital', 'boom', 'burning', 'bed', 'moment', 'via']",1
+411,"['rework', 'replace', 'adam', 'neumann', 'two', 'new', 'ceos', 'here', 'everything', 'know', 'sebastian', 'cunningham', 'arnie', 'minton']",2
+412,"['in', 'focus', 'rework', 'what', 'consider', 'before', 'investing']",2
+414,"['japanese', 'giant', 'postbank', 'group', 'suffer', 'operating', 'loss', '6', '4', 'billion', 'quarter', 'investment', 'start-ups', 'rework', 'user', 'take', 'massive', 'hit']",2
+416,"['salesforce', 'mark', 'beloff', 'big', 'fan', 'reworks', 'adam', 'neumann', 'change', 'tune', 'fair', 'alone', 'markets', 'insider']",2
+417,"['how', 'rework', 'worth', 'much', 'anyway', 'all', 'sublet', 'office', 'building', 'like', 'pay', 'landlord', 'let', 'say', '100', 'soft', 'charge', 'company', 'actually', 'use', 'space', '200', 'soft', 'so', 'profit', '100', 'soft', 'like', 'actual', 'equity', 'anything', 'space']",1
+420,"['real', 'estate', 'mogul', 'barry', 'sternlicht', 'rework', 'go', 'rail', 'still', 'real', 'company']",1
+421,"['operators', 'weigh', 'boom', 'possible', 'bust', 'work', 'office', 'sector', 'follow', 'recent', 'rework', 'po', 'drama']",2
+422,"['outrageous', 'analysis', 'shows', '1', '7', 'billion', 'payout', 'rework', 'ceo', 'equal', 'years', 'salary', 'company', 'expected', '4', '000', 'laid', 'off', 'workers', 'adam', 'neumann', 'ceo', 'beleaguer', 'worksharing', 'startup', 'rework', 'walk', 'away', 'company', '1', '7', 'billion']",1
+423,"['this', 'age', 'well', 'see', 'user', 'blue', 'apron', 'rework', 'sh', 'billions', 'debt', 'loss', 'minimal', 'margin', 'layoffs', 'continue']",1
+424,"['exclusive', 'rework', 'press', 'po', 'launch', 'despite', 'valuation', 'concern', 'source']",2
+425,"['i', 'shut', 'eye', ""'"", 'postbank', 'ceo', 'masayoshi', 'son', 'say', 'lose', '4', '7', 'billion', 'rework', 'business', 'insider', 'via']",1
+426,"['rework', 'become', 'poster', 'child', 'everything', 'wrong', 'tech', 'unicorn']",1
+430,"['we', 'technology', 'salad', 'company', 'like', 'rework', 'salad']",2
+431,"['goldman', 'sachs', 'quietly', 'unloaded', 'rework', 'share', 'investment', 'banker', 'pitch', 'company', '60', 'billion-plus', 'po', 'business', 'insider', 'prime']",2
+432,"['rework', 'we', 'product', 'differentiator', 'normal', 'landlord', 'could', 'copy', 'if', 'rework', 'abandon', 'aspirational', 'weird', 'become', 'another', 'place', 'work', 'go', 'stop', 'someone', 'opening', 'work', 'space', 'across', 'street', 'charge', 'minimum', 'rent']",2
+435,"['or', 'offshore', 'the', 'big', 'investor', 'e', 'g', 'rework', 'saudis', 'japanese', 'bank']",2
+436,"['the', 'rework', 'business', 'nutshell', 'it', 'owes', 'ibn', 'next', '15', 'year', 'it', 'customer', 'commit', 'pay', 'ibn', 'next', '15', 'month', 'spot', 'gap']",1
+437,"['hi', 'james', 'refer', 'san', 'francisco', 'please', 'call', '1', '855', '400', '3575', 'team', 'happy', 'help']",2
+439,"['postbank', 'seek', 'control', 'rework', 'financing', 'package', 'source']",2
+440,"['vcs', 'vcs', 'good', 'luck', 'rework', 'resemblance', 'wellcapitalized', 'company', 'analyse', 'purely', 'coincidental']",2
+441,"['rework', 'considers', 'rescue', 'plans', 'from', 'postbank', 'morgan']",2
+442,"['rework', 'selling', 'conductor', 'company', 'layoffs', 'possible', 'via']",2
+443,"['i', 'kinda', 'understand', 'go', 'user', 'i', 'also', 'think', 'great', 'brand', 'quite', 'hard', 'replace', 'current', 'stage', 'rework', 'type', 'money', 'build', 'exact', 'replica', 'reworks', 'business', 'ibm', 'broke', 'fellow']",1
+444,"['i', 'believe', 'rework', 'successful', 'company', 'whose', 'big', 'idea', 'office', 'space', 'expensive', 'also', '10', 'percent', 'scientology']",1
+446,"['user', 'rework', 'ilk', 'design', 'create', 'product', 'they', 'design', 'corner', 'market', 'product', 'cash', 'leave', 'behind', 'husk', 'economy']",1
+447,"['rework', 'quite', 'roller', 'coaster']",2
+448,"['rework', 'one', 'fast', 'grow', 'company', 'ever', 'may', 'grow', 'pain', 'result', 'speak', 'say', 'rework', 'spokesperson', 'complete', 'accuracy', 'via']",3
+449,"['mass', 'folly', 'how', 'rework', 'differs', 'from', 'user', 'and', 'air']",2
+450,"['rework', 'withdraws', 's1', 'filing', 'delay', 'po', 'techcrunch']",2
+451,"['interesting', 'see', 'take', 'event', 'around', 'rework', 'po', 'cause', 'nerve', 'tech', 'stock', 'general', 'harmful', 'narrative', 'prior', 'around', 'rework', 'tech', 'company']",2
+452,"['strong', 'word', 'man', 'always', 'lecture', 'bernie', ""n't"", 'publishing', 'sponsor', 'content', 'fund', 'rework']",2
+453,"['rework', 'have', 'prospect', 'making', 'money', 'economy', 'ceo']",1
+455,"['while', 'rework', 'parent', 'hardly', 'techinspired', 'business', 'reach', 'bit', 'far', 'public', 'offering', 'combination', 'sky-high', 'private', 'seriously', 'flaw', 'make', 'somewhat', 'unique']",1
+456,"['screwing', 'never', 'felt', 'good', 'why', 'rework', 'founder', 'adam', 'neumann', 'get', '1', '7', 'billion', 'leave', 'company', 'ran', 'ground', 'recruit']",1
+457,"['rework', 'technology', 'company', 'eh']",2
+458,"['rework', 'open', '400', 'location', '3', 'year', 'in', 'case', 'use', 'deep', 'discount', 'convince', 'exist', 'customer', 'relocate', 'help', 'fill']",2
+459,"['a', 'beautiful', 'night', 'westlake', 'park', 'i', 'sure', 'love', 'work', 'downtown', 'seattle', 'atte', 'rework', 'building', 'park']",3
+460,"['rework', 'use', 'weak', 'password', 'outdated', 'wife', 'system', 'throughout', 'branch', 'leave', 'tenant', 'record', 'expose']",1
+461,"['take', 'break', 'need', 'okay', 'feel', 'okay']",2
+462,"['rework', 'selling', 'conductor', 'company', 'layoffs', 'possible', 'via']",2
+464,"['platform', 'curated', 'tweet', 'rework', 'japan', 'get', 'new', 'ceo', 'day', 'we', 'company', 'founder', 'quits']",2
+465,"['postbank', 'clinch', 'deal', 'take', 'rework']",2
+466,"['rework', 'start', 'stock', 'bb', 'program', 'immediately', 'increase', 'share', 'value']",2
+468,"['find', 'space', 'like', 'beloved', 'worker']",3
+470,"['after', 'rework', 'ban', 'employee', 'expend', 'meat', 'adam', 'neumann', 'spot', 'eat', 'giant', 'lamb', 'shank', 'company', 'dinner']",1
+471,"['busy', 'w', 'rework', 'book']",2
+473,[],2
+474,"['rework', 'user', 'proof', 'valuation', 'meaningless']",1
+475,"['shitcoins', 'silicon', 'valley', 'lately', 'the', 'wwf', 'continue', 'profit', 'sight', 'vc', 'rail', 'start-ups', 'claim', 'w', 'revenue', 'worth', 'anything', 'pumped', '4', 'dog']",1
+476,"['new', 'precast', 'idea', 'how', 'i', 'broke', 'that', 'interviews', 'founder', 'catastrophic', 'failure', 'bc', 'everyone', 'say', 'learn', 'failure', 'success', 'could', 'start', 'rework']",3
+477,"['also', 'vc', 'pr', 'inflates', 'value', 'lawless', 'worthless', 'company', 'user', 'rework', 'fb', 'start', 'men', 'chosen', 'power', 'unqualified', 'resemble', 'funders', 'transfer', 'wealth', 'public', 'pension', 'fund', 'ipos', 'men', 'donate', 'instead', 'pay', 'tax']",1
+478,"['postbank', 'group', 'corp', 'report', 'first', 'quarterly', 'loss', '14', 'year', 'wednesday', 'giant', 'vision', 'fund', 'suffer', '970', 'billion', 'yen', '8', '9', 'billion', 'loss', 'fall', 'valuation', 'top', 'tech', 'bet', 'rework', 'user']",1
+479,"['i', 'see', 'sweet', 'rework', 'jeffrey', 'epstein']",2
+480,"['if', 'sound', 'like', 'version', 'underground', 'show', 'would', 'filter', 'mind', 'marketing', 'executive', 'want', 'make', 'globally', 'monotonous', 'starbuck', 'rework', 'well', 'exactly', 'solar', 'so', 'bad']",2
+481,"['i', 'hear', 'rework', 'gonna', 'penny', 'dollar', 'soon']",2
+483,"['halloween', 'rework']",2
+484,"['a', 'year', 'rework', 'intense', 'furious', 'baffling', 'like', 'ten', 'normal', 'company']",1
+486,"['stay', 'date', 'great', 'work', 'do', 'subscribe', 'the', 'spectacle', 'we', 'move', 'forward', 'help', 'end', 'global', 'vision', 'epidemic', 'one', 'pair', 'eyelash', 'time', 'join', 'u']",2
+487,"['rework', 'update', 'exclusive', 'interview', 'guy', 'whose', 'company', 'get', 'lock', 'office', 'umbrella', 'include', 'scoop', 'finally', 'get', 'back']",1
+489,"['rework', 'favourite', 'soap', 'opera']",2
+490,"['amazing', 'tessa', 'self', 'drive', 'capability', 'tessa', 'successful', 'rework']",2
+491,"['join', '5', 'people', 'right', 'explain', 'user', 'left', 'rework', 'why', 'tech', 'company', 'lose', 'money']",1
+492,"['this', 'rework', 'story', 'similar', 'story', 'saw', 'tech', 'bubble', 'a', 'company', 'told', 'grow', 'fast', 'order', 'turn', 'around', 'po', 'regardless', 'whether', 'valuation', 'support', 'business', 'shame', 'underwriting', 'deal']",1
+493,"['welcome', 'friday', 'told', 'valuation', 'money', 'lose', 'share', 'community', 'office', 'lease', 'company', 'way', 'way', 'high', 'plus', 'keep', 'smart', 'smile', 'sexy', 'well', '2', '3', 'step', 'gsmibqr']",1
+494,"['and', 'accord', 'one', 'employee', 'write', 'company', 'slack', 'post', 'so', 'broke', 'pay', 'employee', 'severance', 'adam', 'get', '200']",1
+495,"['10', 'big', 'thing', 'reworks', 'po', 'peril', 'yahoo', 'finance', 'via']",1
+496,"['rework', 'founder', 'adam', 'neumann', '1', '7', 'billion', 'payout', 'postbank', 'unprecedented']",2
+497,"['work', 'bank', 'noble', 'today', 'original', 'rework']",2
+498,"['costa', 'news', 'rework', 'withdraw', 'public', 'offering', 'focus', 'its', 'business', 'model']",2
+499,"['more', 'detail', 'nefarious', 'dealing', 'was', 'family', 'affair', 'until', 'things', 'got', 'complicated']",1
+500,"['some', 'rework', 'board', 'members', 'seek', 'remove', 'adam', 'neumann', 'ceo']",2
+501,"['i', 'happy', 'announce', 'i', 'receive', 'offer', 'rosehulman', 'engineering', 'school', 'country']",2
+502,"['postbank', 'talk', 'jp', 'morgan', 'rework', 'bail-out', 'cash', 'dwindles']",2
+503,"['rework', 'parent', 'weighs', 'further', 'cut', 'its', 'valuation', 'w', 'twitter', 'news', 'notice', 'hitchin', 'cryptocurrency', 'technology']",2
+504,"[""you'se"", 'heard', 'rework', 'relive', ""'coliving'"", 'suggest', 'way', 'meeting', 'demand', 'hotel', 'style', 'room', 'communal', 'facility', 'resident', 'examples', 'include', 'development', 'try', 'create', 'communityhttps', 'buff', 'ly', '2zsga8b']",2
+505,"['business', 'yearbook', 'briefing', 'pressure', 'builds', 'rework', 'delay', 'its', 'i', 'p', 'o']",2
+506,"['i', 'onto', 'idea', 'mining', 'work', 'office']",2
+507,"['rework', 'founder', 'make', 'best', 'business', 'move', 'yet', 'quit']",1
+508,[],2
+509,"['is', 'anyone', 'actually', 'try', 'sell', 'rework', 'bond', 'right', 'i', 'look', 'debt', 'investor', 'come', 'upon', 'one', 'eleven', 'funding', 'bondheavy', 'clo', 'issue', 'credit', 'suisse', 'asset', 'management', 'also', 'big', 'rework', 'owner', 'junk-bond', 'ets']",2
+511,"['sprint', 'corp', 'executive', 'chairman', 'marcelo', 'clause', 'reportedly', 'work', 'get', 'work', 'giant', 'rework', 'back', 'track']",2
+512,"['rework', 'physical', 'structure', 'put', 'positive', 'energy', 'consciousness', 'world', 'say', 'one', 'work', 'rework', 'ever']",1
+513,"['square', 'like', 'ibama', 'rework', 'like', 'trump', 'which', 'one', 'get', 'book']",1
+514,"['picture', 'day', 'shenanigan', 'best', 'custodian', 'district']",2
+515,"['postbank', 'get', 'bad', 'end', 'rework', 'deal']",2
+516,"['reworks', 'adam', 'neumann', 'sue', '1', 'ibn', 'package']",1
+517,"['considering', 'happen', 'rework', 'would', 'okay', 'but', ""n't"", 'modern', 'business', 'you', ""can't"", 'flimflam', 'pointless', 'make', 'commodity', 'sell', 'billion', 'your', 'choice', 'matter', 'president']",1
+518,"['rework', 'confirms', '8', 'billion', 'lifeline', 'postbank', 'group', 'name', 'new', 'executive', 'chairman']",2
+519,"['tories', 'get', 'rework', 'vibe', 'new', 'logo']",2
+520,"['reworks', 'adam', 'neumann', 'reveals', 'secret', 'revolutionary', 'business', 'model', ""three's"", 'one', 'born', 'every', 'minute']",3
+521,"['also', 'would', 'appreciate', 'interested', 'flip']",2
+522,"['rework', 'po', 'debacle', 'wing', 'jp', 'morgan', 'nike', 'digital', 'strategy', 'pay', 'dividend', 'ceos', 'speak', 'get', 'reputation', 'boost', 'pr', 'daily']",2
+523,"['uhm', 'could', 'generation', 'answer']",2
+524,"['the', 'ceo', 'of', 'rework', 'reportedly', 'had', 'a', 'sober', 'allhands', 'meeting', 'to', 'announce', 'the', 'firing', 'of', 'hundreds', 'of', 'employees', 'then', 'fundic', 'burst', 'in', 'to', 'perform', 'as', 'they', 'passed', 'out', 'tequila', 'shots']",1
+525,"['space', 'amaze', 'congrats', 'new', 'midtown', 'center', 'location', 'dc', 'i', 'excite', 'call', 'place', 'home']",3
+526,"['today', 'aoc', 'step', 'river', 'debate', 'postbank', 'insurance', 'cost', 'go', 'thanks', 'rework', 'that', 'the', 'real', 'deal', 'daily', 'digest']",2
+527,"['rework', 'user', 'left', 'why', '2019', 'most', 'anticipated', 'ipos', 'have', 'stumbled']",1
+529,"['issue', 'take', 'rework', 'tacky', 'office', 'actually', 'ikeadesigned', 'bring', 'date', 'inaccurate', 'ikea', 'stereotype', 'hot', 'mess']",1
+530,"['rework', 'look', 'sell', 'spin', 'acquisition', 'include', 'firm', 'conductor']",2
+532,"['bloomberg', 'rework', 'currently', 'half-dozen', 'pending', 'deal', 'london', 'landlord', 'await', 'clarity', 'the', 'large', 'space', 'peterborough', 'court', 'current', 'london', 'headquarters', 'goldman', 'sachs']",2
+533,"['we', 'would', 'add', 'ego', 'the', 'enemy', 'list', 'it', 'one', 'important', 'book', 'it', 'could', 'save', 'many', 'others']",2
+534,"['why', 'rework', 'disaster', 'is', 'a', 'good', 'thing']",3
+535,"['its', 'money']",2
+536,"['postbank', 'founder', 'call', 'judgment', 'really', 'bad', '4', 'b', 'rework', 'loss']",1
+538,"['5', 'year', 'work', 'market', 'much', 'great', 'today', 'rework', 'dominant', 'leader', 'virtue', 'astonishingly', 'inept', 'management', 'huge', 'miss', 'part', 'notice', 'neumann', 'ran', 'company', 'via', 'fire', 'festival', 'playback']",1
+539,"['contrarily', 'take', 'we', 'rework', '5', 'commercial', 'space', 'nec', 'home', 'market', 'whats', 'say', 'number', 'wont', '10', 'period', 'time']",3
+541,"['rework', 'failure', 'postbank', 'day', 'of', 'reckoning']",1
+542,"['rework', 'po', 'backpaddling', 'leaves', 'israel', 'two', 'largest', 'banks', 'risk']",2
+543,"['heading', 'city', 'cannabis', 'business', 'networking', 'rework', 'chicago', 'what', 'tonight']",2
+544,"['rework', 'moment', 'truth', 'approaches', 'as', 'board', 'deliberate', 'postbank', 'morgan', 'financing', 'deals']",2
+545,"['yeah', 'i', 'definitely', 'miss', 'little', 'runway', 'left', 'even', 'afford', 'fire', 'people', 'risk', 'factor', 's1']",1
+546,"['provide', 'superior', 'focus', 'longterm', 'result', 'close', 'door', 'horse', 'bolt']",2
+547,"['reworks', 'survive', 'investor', 'employee', 'sue', 'adam', 'fraud', 'get', 'clawback', '700']",1
+548,"['how', 'evaluate', 'read', 'book']",2
+549,"['well', 'put']",2
+551,"['the', 'real', 'reason', 'fail', 'rework', 'po']",1
+552,"['postbank', 'say', 'invest', '18', '5', 'billion', 'rework', 'gdp', 'bolivia', 'good', 'luck']",2
+553,"['i', 'imagine', 'tech', 'billionaire', 'internal', 'dialog', 'become', 'billionaire', 'bozo', 'fuck', 'yeah', 'gonna', 'get', 'sole', 'go', 'space', 'ucc', 'fuck', 'yeah', 'gonna', 'kill', 'goat', 'caesar', 'bang', 'jack', 'even', 'happen', 'i', 'clearly', 'insane', 'rework', 'douche', 'hold', 'minute', 'i', 'idiot']",1
+555,"['our', 'host', 'cure', 'back', 'weekly', 'economic', 'update', 'another', 'rollick', 'edition']",2
+556,"['me', 'able', 'walk', 'water', 'fountain', 'guy', 'use', 'sit', 'office', 'front', 'always', 'hit', 'get', 'new', 'job', 'left', 'rework']",2
+557,"['awaiting', 'layoffs', 'rework', 'employees', 'say', 'founder', 'payout', 'graft']",1
+558,"['rework', 'confirms', '8', 'billion', 'lifeline', 'postbank', 'group', 'name', 'new', 'executive', 'chairman']",2
+559,"['back', 'hustle', 'rework', 'long', 'island', 'city', 'ny']",2
+560,"['2', 'the', 'second', 'shoe', 'still', 'hold', 'unicorn', 'bubble', 'vulnerable', 'macrolevel', 'return', 'traditional', 'level', 'interest', 'rate', 'credit', 'spread', 'doing', 'capitalism', 'p', '34']",2
+561,"['rework', 'add', 'woman', 'previously', 'all-male', 'board', 'ahead', 'po']",2
+562,"['this', 'get', 'interest', 'rework', 'run', 'so', 'crazy', 'model', 'operation', 'go', 'work']",1
+563,"['user', '30', 'since', 'po', 'left', '40', 'since', 'po', 'rework', 'urge', 'shelve', 'po', 'maybe', 'outlook', 'unicorn', 'haemorrhage', 'capital', 'hot']",1
+564,"['hilarious', 'analysis', 'debacle', 'market', 'efficiency', 'point', 'view', 'how', 'do', 'you', 'like', 'we', 'now']",1
+565,"['maybe', 'lose', 'much', 'rework', 'investment', ""they've"", 'resort', 'use', 'high', 'school', 'design', 'intern', 'save', 'cash']",1
+567,"['sure', 'understand', 'mean', 'can', 'dm', 'u', 'information', 'wed', 'like', 'look', 'thanks', 'eb']",2
+569,"['rework', 'withdraws', 's1', 'filing', 'delay', 'po']",2
+570,"['rework', 'co-founder', 'adam', 'neumann', 'start', 'talk', 'board', 'director', 'investor', 'discus', 'future', 'role', 'us', 'officesharing', 'startup', 'include', 'possibility', 'give', 'title', 'chief', 'executive']",2
+571,"['pda', 'rework', 'particularly', 'bold', 'move', 'consider', 'cannon', 'even', 'pick', 'nose', 'without', 'someone', 'see']",2
+572,"['how', 'postbank', 'rework', 'played', 'silicon', 'valley', 'wall', 'street']",2
+573,"['18', 'ibm', 'love']",2
+574,"['now', 'postbank', 'has', 'decide', 'whether', 'write', 'down', 'its', 'rework', 'stake', 'bloomberg', 'via']",2
+576,"['rework', 'reportedly', 'unlikely', 'go', 'public', 'year', 'thousand', 'layoff', 'could', 'come', 'rework', 'announce', 'tuesday', 'co-founder', 'adam', 'neumann', 'step']",1
+577,"['postbank', 'seek', 'control', 'rework', 'financing', 'package', 'source']",2
+580,"['i', 'wish', 'i', 'kind', 'sale', 'person', 'could', 'scam', 'people', 'billion', 'tell', 'year', 'profitable', 'like', 'others', 'people', 'invest', 'i', 'give', 'real', 'number', 'i', 'dude', 'invest']",1
+581,"['here', 'best', 'how', 'retire', '40', 'ive', 'ever', 'read', 'via']",2
+582,"['rework', 'bail-out', 'deal', 'may', 'emerge', 'soon', 'next', 'week', 'ft', 'says']",2
+583,"['exclusive', 'rework', 'press', 'po', 'launch', 'despite', 'valuation', 'concern', 'source', 'rework', 'owner', 'the', 'we', 'company', 'plan', 'proceed', 'investor', 'roadshow', 'initial', 'public', 'offering', 'po', 'early', 'next', 'week', 'braving', 'concern']",2
+584,"['rework', 'halt', 'new', 'lease', 'agreement', 'stem', 'loss', 'via']",2
+585,"['the', 'rework', 'saga', 'continue']",2
+586,"['this', 'fascinate', 'rework', 'strategy', 'start-ups']",2
+587,"['rework', 'india', 'fight', 'new', 'fund', 'talk', 'local', 'lender', 'collapse']",2
+589,"['the', 'top', 'cloud', 'stories', 'week', 'blue', 'apron', 'pm', 'justin', 'kan', 'rework', 'sinfield']",2
+591,"['the', 'karbala', 'cabal', 'rework', 'founder', 'neumann', 'integrated', 'jewish', 'mysticism', 'into', 'business', 'zero', 'hedge']",1
+592,"['financial', 'daily', 'dose', '10', '14', '2019', 'top', 'story', 'rework', 'board', 'weighing', 'bail-out', 'options', 'postbank', 'morgan']",2
+593,"['rework', 'plans', 'shed', 'one-third', 'technology', 'employees', 'via']",2
+595,"['breaking', 'rework', 'could', 'chop', 'valuation', 'half', '20', 'billion', 'amid', 'uncertainty', 'business', 'ceo', 'might', 'delay', 'po']",1
+596,"['the', 'company', 'seem', 'mess', 'i', 'think', 'remain', 'play', 'postbank', 'value', 'real', 'estate', 'rework', 'own', 'the', 'business', 'model', 'shit', 'thats', 'corporate', 'banking', 'term', 'absolute', 'fuck', 'rubbish']",1
+597,"['postbank', 'group', 'profit', 'plunge', 'owe', 'rework', 'turmoil']",2
+598,"['senior', 'sales', 'manager', 'medium', 'large', 'business', 'seoul', 'korea', 'republic', 'rework', 'rework']",2
+599,"['i', 'feel', 'like', 'find', 'rework', 'actually', 'office', 'rent']",1
+600,"['high', 'his', 'own', 'supply', 'rework', 'ceo', 'reportedly', 'wants', 'be', 'president', 'world']",1
+601,"['casebook', 'raise', '2', '2', 'billion', 'prep', 'goole', 'raise', '130', 'prep', 'bay', '6', '9', 'million', 'rework', 'raise', '14', 'billion', 'far', 'bigscale', 'money', 'laundering']",1
+602,"['rework', 'india', 'raise', '200', 'expansion']",3
+603,"['appal', 'it', 'support', 'surgeon', 'cybercity', 'we', 'wait', '45', 'minute', 'someone', 'help', 'luck', 'sad']",1
+604,"['the', 'demise', 'rework']",1
+605,"['postbank', 'offer', 'take', 'majority', 'stake', 'rework']",2
+608,"['rework', 'head', 'bankruptcy', 'reorganization']",1
+609,"['lot', 'go', 'rework', 'guy', 'bio', 'tell', 'detail', 'think']",2
+610,"['wow', 'rework', 'acquisition', 'meet', 'founder', 'one', 'cash', 'deal', 'conductor', 'nec', 'base']",2
+611,[],2
+612,"['wow', 'put', 'charge', 'previously', 'ceo', 'drove', 'ground', 'clearly', 'masayoshi', 'son', 'like', 'lose', 'horse', 'keep', 'invest', 'people', 'think', 'fail', 'fail', 'keep', 'burning', 'capital']",1
+613,"['new', 'story', 'business', 'time', 'rework', 'excel', 'faces', 'pregnancy', 'discrimination', 'complaint']",1
+615,"['disney', 'ceo', 'discus', 'role', 'business', 'effect', 'social', 'change', 'rework', 'shelf', 'po', 'surprising', 'leak', 'thomas', 'cook', 'memo', 'catch', 'late', 'news', 'link', 'tune']",2
+616,"['i', 'follow', 'since', 's1', 'release', 'get', 'momentum', 'impeachment', 'it', 'get', 'bad', 'bad', 'now', 'rework', 'po', 'pull', 'employee', 'go', 'start', 'suffer', 'much', 'need', 'restructuring']",2
+618,"['yea', 'thats', 'coco', 'doing', 'way', 'rework', 'actually', 'sustainable']",2
+620,"['some', 'rework', 'board', 'members', 'seek', 'remove', 'adam', 'neumann', 'ceo', 'is', 'adam', 'stuck', 'rock', 'hard', 'place', 'he', 'sure']",1
+621,"['here', 'alex', 'skill', 'add', 'appeal', 'family', 'member', 'age']",2
+623,"['excited', 'craig', 'hansen', 'world', 'resources', 'institute', 'soweto', 'rework', 'event', 'dig', 'put']",2
+624,"['meet', 'users', 'revolt', 'against', '2', 'event', 'fee', 'and', 'blame', 'rework']",2
+625,"['new', 'best', 'story', 'hacker', 'news', 'rework', 'parent', 'pull', 'po', 'follow', 'pushback', 'source']",1
+626,"['rework', 'considers', 'rescue', 'plans', 'from', 'postbank', 'morgan', 'ny', 'times', 'technology']",2
+627,"['rework', 'look', 'sell', 'spin', 'acquisition', 'include', 'firm', 'conductor']",2
+629,"['depends', 'what', 'strike', 'far']",2
+630,"['office', 'the', 'rise', 'fall', 'rework']",2
+631,"['rework', 'pulls', 'out', 'po', 'amid', 'investor', 'concern']",2
+632,"['reports', 'postbank', 'link', 'director', 'seek', 'ax', 'rework', 'ceo', 'the', 'asahi', 'shimbun', 'the', 'asahi', 'shimbun']",2
+633,"['rework', 'withdraw', 'public', 'offering', 'focus', 'its', 'business', 'model']",2
+634,"['inform', 'u', '1', '600', 'phone', 'booth', 'across', 'location', 'gas', 'high', 'level', 'formaldehyde', 'close', 'remove']",1
+635,"['this', 'rework', 'thing', 'look', 'interest', 'whole', 'elizabeth', 'holmestheranos', 'debacle']",1
+636,"['wow', 'go', 'goldman', 'ceo', 'dj', 'sol', 'rework', 'po', 'conflict', 'governance', 'solomon', 'concede', 'one', 'inch']",2
+637,"['the', 'cycle', 'po', 'risk']",1
+638,"['then', 'pay', 'rework', 'office', 'space', 'supposedly', 'need']",2
+639,"['it', 'take', 'mba', 'figure', 'rework', 'fail', 'citation', 'business', 'insider']",1
+640,"['live', 'look', 'rework', 'follow', 'delay', 'po']",2
+641,"['rework', 'tech', 'company', 'go', 'coffee', 'shop', 'get', 'work']",2
+642,"['we', 'the', 'postneumann', 'era', 'begin', 'rework', 'halt', 'new', 'lease', 'agreement', 'property', 'owner', 'u', 's', 'officesharing', 'startup', 'loo']",2
+644,"['here', 'everything', 'rework', 'is', 'selling', 'to', 'save', 'its', 'business', 'postneumann', 'at', 'greystone', 'you', 'invest', 'rest']",3
+646,"['yep', 'kinda', 'insane']",2
+647,"['the', 'millennial', 'urban', 'lifestyle', 'is', 'about', 'get', 'more', 'expensive', 'as', 'rework', 'crash', 'user', 'bleeds', 'cash', 'consumertech', 'gold', 'rush', 'may', 'come', 'end']",2
+648,"['today', '1', '2', '11am2pm', 'join', 'phase', 'two', '5792', 'w', 'jefferson', 'bleed', '90016']",2
+649,"['run', 'druglords', 'vibe', 'braaaaahhhhhhhh', 'smoke', 'weeeeeeeed', 'cocaine', 'tequila', 'totally', 'sustainable', 'bro', 'hit', 'entire', 'director']",1
+650,"['reworks', 'fault']",1
+652,"['leaked', 'email', 'reveal', 'rework', 'warn', 'potentially', 'dangerous', 'phone', 'booth', 'taint', 'formaldehyde', 'early', 'august', 'via']",1
+653,"['postbank', 'seeking', 'take', 'control', 'rework']",2
+655,"['looks', 'like', 'everything', 'control', ""they've"", 'move', 'beyond', 'community', 'adjust', 'number', 'plain', 'hypothetical']",1
+656,"['meet', 'reworks', 'epic', 'cash', 'black', 'hole', '36', 'of', 'shanghai', 'locations', 'are', 'vacant']",1
+657,"['digitalchamber', 'report', 'rework', 'co-founder', 'adam', 'neumann', 'may', 'unload', 'property', 'pay', 'giant', 'loan']",2
+659,"['newsmakerwework', 'po', 'spell', 'rough', 'land', 'ceo', 'neumann']",2
+660,"['christ', 'note', 'sunday', 'always', 'great', 'read']",2
+661,"['remark', 'stock', 'what', 'happens', 'next', 'rework', 'cnn']",2
+662,"['rework', 'user', 'left', 'netflix', 'bird', 'amazon', 'late-age', 'capitalism', 'moneylosing', 'predatory', 'pricing', 'aim', 'create', 'monopoly']",2
+664,"['rework', 'board', 'approves', 'postbank', 'takeover', 'w']",2
+665,"['we', 'must', 'drunk', 'the', 's1', 'bunk', 'we', 'raise', 'flung', 'gotta', 'halve', 'junk', 'rework', 'weighs', 'slashing', 'valuation', 'more', 'than', 'half']",1
+666,"['read', 'adam', 'neumann', 'step', 'need', 'make', 'sure', 'woman', 'room', 'day', 'one']",2
+667,"['read', 'rework', 'never', 'really', 'work']",2
+668,"['rework', 'expect', 'announce', 'major', 'layoff']",1
+671,"['i', 'think', 'discourse', 'happen', 'month', 'ago', 'i', 'miss', 'ummmmmmmm', 'gwyneth', 'patrol', 'cousin', 'rework', 'ceo', 'wife']",2
+672,"['why', '6', '2019', 'two', '2', 'site', 'already', 'one']",2
+673,"['in', 'today', 'missouri', 'minute', 'rework', 'lay', '4', '000', 'staff', 'gm', 'offer', '1', '5', 'billion', 'wentzville', 'investment', 'missouri', 'join', 'state', 'investigation', 'casebook']",1
+674,"['rework', 'could', 'turn', 'vision', 'fund', 'big', 'lemon']",3
+675,"['ironic', 'guy', 'start', 'company', 'call', 'basically', 'end', 'i', 'get', 'mine']",1
+676,"['representatives', 'decline', 'comment', 'article']",2
+677,"['fail', 'ipos', 'could', 'cost']",1
+678,"['rework', 'go', 'motion', 'speech']",2
+679,"['arts', 'and', 'crafts', 'top', 'story', 'rework', 'parent', 'adjusts', 'corporate', 'governance', 'ahead', 'nasdaq', 'po', 'w', 'see']",2
+680,"['this', 'interview', 'rework', 'spicy', 'i', 'still', 'really', 'want', 'know', 'go', 'happen', 'meet']",2
+681,[],2
+682,"['good', 'friend', 'kushner']",2
+683,"['we', 'go', 'use']",2
+684,"['weave', 'reach', 'peak', 'founder', 'ceo', 'how', 'reworks', 'adam', 'neumann', 'lose', 'job', 'disastrous', 'attempt', 'list', 'company', 'stock', 'market']",1
+685,"['rework', 'troubled', 'share', 'office', 'space', 'company', 'accepted', 'takeover', 'offer', 'postbank', 'large', 'outside', 'shareholder']",2
+686,"['rework', 'say', 'file', 'withdraw', 'po']",2
+688,"['the', 'top', 'cloud', 'stories', 'week', 'blue', 'apron', 'pm', 'justin', 'kan', 'rework', 'sinfield']",2
+689,"['guys', 'i', 'come', 'sick', 'idea', 'weworkinspired', 'erotic', 'thriller']",2
+692,"['what', 'blast', 'radius', 'po', 'implosion']",1
+695,"['oct', '15', '1', 'invest', '2', 'launch', '3', 'race', 'add', 'rescue', 'financier', 'slew', 'role', 'read']",2
+696,"['voting', 'live', 'finalist', 'get', 'friend', 'family', 'vote', 'favorite', 'local', 'artist', 'win', 'performance', 'recess', 'rooftop', 'party', 'month', 'vote', 'here']",2
+698,"['spoke', 'karen', 'gupta', 'silicon', 'value-based', 'co-founder', 'nexus', 'venture', 'partners', 'over-valuation', 'concern', 'software', 'market', 'challenge', 'building', 'say', 'software', 'service', 'company', 'fallout', 'rework', 'fail', 'po', 'vc', 'funding']",2
+699,"['let', 'unpack', 'board', 'director', 'act', 'pressure', 'structure', 'governance', 'still', 'hot', 'mess', 'adam', 'pay', 'back', 'proceeds', 'make', 'thing', 'look', 'shady', 'less', '20', 'valuation', 'still', 'way', 'high']",1
+700,"['ceo', 'trouble', 'travis', 'actually', 'brilliant', 'character', 'flaw', 'lead', 'solid', 'company', 'neumann', 'part', 'problem', 'rework', 'scam', 'real', 'estate', 'co', 'masquerade', 'tech', 'still', 'terrible', 'culture', 'network', 'effect']",1
+701,"['jet', 'black', 'rework', 'professional', 'go', 'brush', 'red', 'red', 'bull', 'sponsor', 'casual', 'adventurer', 'lime', 'green', 'monster', 'energy', 'sponsor', 'motocross', 'enthusiast']",2
+703,"['will', 'trouble', 'end', 'gig', 'economy', 'watch', 'get', 'ahead', 'time', 'perfect', 'around', 'worldhttp', 'bit', 'ly', '2qnkpma']",2
+706,"['one', 'time', 'i', 'work', 'rework', 'building', 'old', 'shit', 'i', 'guess', 'rework', 'fit', 'x', 'number', 'tenant', 'normal', 'floor', 'so', 'make', 'elevator', 'work', 'lot', 'harder', 'one', 'day', 'elevator', 'go', 'free', 'fall', '4', 'floor']",1
+707,"['happy', 'see', 'back', 'make', 'anchor', 'ship', 'thats', 'already', 'sunk', 'stay', 'active', 'predictive', 'reclaim', 'sustain', 'well-deserved', 'audience', 'rework', 'dead', 'horse', 'nobody', 'need', 'understand', 'expensive', 'pencil']",2
+708,"['body', 'transformation', 'lunch', 'learn', 'talk']",2
+709,"['wig', 'igg', 'rework', 'office', 'odyssey']",2
+710,"['rework', 'ceo', 'adam', 'neumann', 'may', 'ask', 'step', 'company', 'delay', 'po', 'here', '9', 'founder', 'push', 'company', 'start']",2
+711,"['will', 'watch', 'one', 'closely', 'rework', 'lot', 'interest', 'potential', 'revenue', 'channel', 'rework', 'goes', 'from', 'hot', 'not', 'dream', 'value', 'plunges', '45', 'billion']",3
+712,"['rework', 'feel', 'like', 'first', 'wave', 'doctor', 'company', 'asked', 'grow', 'way', 'fast', 'audience', 'fully', 'arrive', 'could', 'support', 'growth', 'despite', 'sound', 'concept', 'company', 'eventually', 'take', 'stink', 'wear', 'share', 'office', 'space']",1
+713,"['reworks', 'valuation', 'could', 'reportedly', 'slip', '8', 'billion', 'part', ""softbank's"", 'propose', 'bail-out', 'embattle', 'company', 'via']",1
+715,"['now', 'rework', 'hand', 'japanese', 'i', 'wait', 'use', 'bidet', 'big', 'meeting']",2
+716,"['yearbook', 'how', 'adam', 'neumann', 'is', 'winning', 'amid', 'rework', 'crisis', 'unknown', 'author', 'via']",2
+720,"['principal', 'creator', 'fund', 'new', 'york', 'new', 'york', 'united', 'states', 'america', 'rework', 'principal']",2
+721,"['schumpeter', 'rework', 'show', 'venture', 'capitalist', 'world', 'make-believe', 'via']",1
+722,"['rework', 'bos', 'walk', 'away', '1', 'ibn', 'postbank', 'rescue', 'deal']",2
+724,"['rework', 'parent', 'say', 'po', 'still', 'despite', 'setback']",2
+725,"['rework', 'cash', 'clock', 'is', 'running', 'down', 'quickly']",1
+726,"['i', 'think', 'simple', 'the', 'bank', 'lends', 'mortgage', 'buy', 'property', 'inflate', 'value', 'the', 'new', 'property', 'millionaire', 'invests', 'postbank', 'vision', 'fund', 'invests', 'rework', 'there', 'innumerable', 'path', 'money', 'take']",2
+728,"['nope', 'he', 'reference', 'nov', 'email', 'i', 'miss', 'clearly', 'miscommunication', 'put', 'thing', 'move', 'we', 'say', 'april', 'show', 'day', 'they', 'scramble', 'sure', 'wed', 'say', 'may', 'st']",2
+729,"['incredibly', 'stable', 'company', 'rework', 'appears', 'to', 'be', 'investing', 'in', 'incredibly', 'stable', 'industry', 'sport']",2
+730,"['rework', 'parent', 'pull', 'po', 'follow', 'pushback', 'source']",2
+732,"['postbank', 'seeking', 'take', 'control', 'rework', 'through', 'financing', 'package']",2
+733,"['rework', 'could', 'run', 'cash', 'next', 'month', 'via']",1
+734,"['arnie', 'minton', 'rework', 'number', 'man']",2
+735,"['some', 'rework', 'board', 'members', 'plan', 'push', 'out', 'ceo', 'adam', 'neumann', 'after', 'po', 'delay']",1
+736,"['sunk', 'cost', 'bias', 'screaming', 'deal', 'postbank', 'take', '80', 'ownership', 'rework', 'announces', '5', 'billion', 'new', 'financing', 'package']",2
+737,"['the', 'fall', 'rework', 'startup', 'darling', 'come', 'unglued', 'the', 'wall', 'street', 'journal']",1
+738,"['yearbook', 'rework', 'founder', 'allegedly', 'called', 'maternity', 'leave', 'vacation', 'unknown', 'author', 'via']",1
+739,"['sent', 'late', 'innovation', 'wrap', 'this', 'one', 'focus', 'lot', 'climate', 'change', 'electric', 'vehicle', 'solar', 'also', 'touch', 'rework', 'quantum', 'supremacy']",2
+740,"['this', 'umbrella', 'cost', '20', 'billion', 'cause', 'po', 'delay']",2
+741,"['rework', 'late', 'problem', 'postbank', 'in', 'apr2019', 'wildcard', 'announce', '1', 'billion', 'partnership', 'postbank', 'in', 'aug2019', 'warn', 'client', 'confirm', 'undisclosed', 'sec', 'investigation', 'wildcard', 'does', 'postbank', 'even', 'know', 'way']",2
+742,"['kantoorverhuurder', 'rework', 'smelt', 'beursgang', 'via']",2
+743,"['rework', 'adam', 'neumann', 'loan', 'money', 'faraday', 'grid', 'ceo', 'fire']",2
+744,"['rework', 'goes', 'from', 'hot', 'not', 'dream', 'value', 'plunges', '45', 'billion']",1
+745,"['rework', 'expose', 'astronomical', 'amount', 'data', 'poorly', 'protect', 'wife', 'network']",1
+746,"['2019', 'see', 'vision', 'fund', 'fortune', 'turn', 'sour', 'major', 'investment', 'tech', 'company', 'like', 'slack', 'fell', 'underwater', 'follow', 'lacklustre', 'ipos', 'worse', 'still', 'rework', 'vision', 'fund', 'big', 'investment', 'implore', 'way', 'go', 'public', 'we', 'user']",1
+747,"['i', 'think', 'rework', 'may', 'best', 'counter-argument', 'history', 'idea', 'worthless', 'execution', 'everything', 'rework', 'execute', 'pretty', 'well', 'vision', 'strategy', 'execute', 'really', 'dumb']",1
+748,"['from', 'office', 'camera', 'lent', 'rework']",2
+749,"['charisma', 'aristotle', 'rework', 'via']",2
+751,"['there', 'high', 'growth', 'culture', 'building', 'startup', 'ceos', 'post', 'po', 'ceos', 'we', 'saw', 'user', 'see', 'rework']",2
+752,"['postbank', 'broke', 'almost', 'every', 'rule', 'invest', 'create', 'big', 'fund', 'ever', 'roughly', '40', 'vision', 'fund', 'cap', 'form', 'prefer', 'stock', 'promise', 'return', '7', 'pa', 'like', 'debt', 'delay', 'rework', 'po', 'sell-off', 'holding', 'show', 'cost', 'leverage']",2
+753,"['this', 'good', 'point', 'the', 'late', 'event', 'rework', 'reflect', 'postbank', 'bod', 'much', 'reflect', 'adam', 'neumann']",2
+754,"['rework', 'innov8', 'bundle', 'workspace', 'company', 'the', 'next', 'wave', 'start-ups', 'space', 'likely', 'unbundled', 'different', 'type', 'workspace', 'focus', 'collaboration', 'social', 'integrate', 'office', 'workspace', 'model', 'thoughts']",2
+755,"['in', 'new', 'headache', 'rework', 'says', 'it', 'found', 'cancer-causing', 'chemical', 'its', 'phone', 'booths', 'cash-strapped', 'rework', 'officesharing', 'company', 'try', 'negotiate', 'financial', 'lifeline', 'new', 'problem', 'may', 'prove', 'costly', 'from', 'report', 'it', 'close']",1
+757,"['thanks', 'update', 'i', 'watch', 'cnn', 'i', 'want', 'bull', 'shit', 'fox', 'mascot']",1
+758,"['a', 'tour', 'dock', '72', 'week', 'reworks', 'valuation', 'come', 'fire', 'business', 'insider']",2
+759,"['rework', 'reportedly', 'expect', 'lay', '2', '000', 'worker', 'early', 'week']",1
+760,"['rework', 'parent', 'pull', 'po', 'follow', 'pushback', 'source']",1
+763,"['with', 'rework', 'thermos', 'line', 'charm', 'fraud', 'exist']",1
+764,"['just', '6', 'weeks', 'ago', 'rework', 'said', 'its', 'success', 'depends', 'large', 'part', 'keeping', 'its', 'ceo', 'but', 'here', 'surprising', 'thing', 'that', 'happened', 'sunday']",2
+765,"['top', 'story', 'reworks', 'toxicity', 'problem', 'formaldehyde', 'see']",1
+766,"['still', 'unable', 'see', 'sense', 'rework', 'ultimately', 'collective', 'vehicle', 'wealthy', 'backdrop', 'commercial', 'real', 'estate', 'property', 'value', 'probably', 'turn', 'wildly', 'overvalue', 'lease']",1
+767,"['then', 'practice', 'lose', 'farther', 'lose', 'faster', 'place', 'name', 'meant', 'travel', 'none', 'bring', 'disaster', ""'"", 'ex', 'ceo', 'rework']",2
+768,"['they', 'try', 'profitable']",2
+769,"['today', 'would', 'great', 'day', 'rework', 'staff', 'walk', 'demand', 'company', '1', 'reimburse', 'value', 'lose', 'stock', 'option', '2', 'terminate', 'noncompete', 'force', 'arbitration', 'agreement']",1
+770,"['ok', 'funny', 'ultimately', 'quite', 'sad', 'rework', 'remotely', 'admits', 'lot', 'office', 'nobody', 'around', 'fix', 'problem']",1
+771,"['september', '27', '2019152', 'rework', 'and', 'competition', 'in', 'real', 'estate', 'with', 'fishman', 'speyer', 'md', 'fund']",2
+772,"['wendy', 'silverstein', 'head', 'rework', 'real-estate', 'fund', 'the', 'real', 'deal']",2
+773,"['rework', 's1']",2
+774,"['as', 'usual', 'interest', 'post', 'what', 'is', 'tech', 'company', 'contextualise', 'early', 'day', 'ibm', 'till', 'rework', 'peloton', 'a', 'lot', 'highlight']",2
+775,"['seek', 'u', 's', 'national', 'security', 'review', 'deal']",2
+776,"['thank', 'goodness', 'rework', 'proceed', 'po']",2
+777,"['people', 'important', 'thing', 'business', 'model', 'product', 'follow', 'right', 'people', 'adam', 'neumann', 'co-founder', 'rework']",3
+778,"['landscape', 'en', 'rework', 'park', 'plaza']",2
+779,"['my', 'big', 'qualm', 'reworks', 'prospectus', 'ceo', 'basically', 'use', 'company', 'investor', 'money', 'personally', 'enrich', 'at', 'the', 'cost', 'of', 'his', 'company', 'scott', 'take', 'ceo', 'task', 'need', 'refresh', 'gild', 'age']",1
+780,"['rework', 'look', 'sell', 'spin', 'acquisition', 'include', 'firm', 'conductor']",2
+781,"['behave', 'cult', 'otherwise', 'adam', 'get']",1
+782,"['wow', 'nearly', 'do', 'rework', 'founder', 'get', 'nearly', '1', '7', 'billion', 'let', 'postbank', 'take', 'company']",2
+783,"['en', 'rework', 'de', 'la', 'opv', 'al', 'restate']",2
+785,"['rework', 'rework', 'deal', 'postbank', 'group', 'international', 'sign', 'time', 'insane', 'show', 'founder', 'financially', 'played', 'card', 'right', 'bubble', 'play', 'also', 'may', 'need', 'change', 'name', 'live', 'hat', 'step', 'cygni']",1
+786,"['being', 'part', 'institution', 'blind', 'imperfection', 'institution', 'cause', 'rationalize', 'shortcoming', 'happens', 'rework', 'white', 'house', 'everywhere', 'else', 'human', 'convene', 'attach', 'personal', 'value', 'affiliate', 'organization']",1
+787,"['rework', 'bonds', 'drop', 'below', 'par', 'first', 'time', 'since', 'po', 'filing']",2
+789,"['i', 'love', 'kind', 'meeting', 'i', 'use', 'go', 'meeting', 'sand', 'hill', 'road', 'back', 'lots', 'creative', 'idea', 'different', 'perspective', 'twitter', 'handle', 'huge', 'issue', 'everyone', 'worse', 'part', 'people', 'go', 'creative', 'use', 'name', 'th']",2
+790,"['i', 'start', 'wonder', 'thing', 'start', 'potemkin', 'company', 'is', 'silicon', 'valley', 'really', 'space', 'innovation', 'happen', 'the', 'rework', 'mess', 'explain', 'via']",1
+791,"['neither', 'hunter', 'biden', 'ivana', 'trump', 'anything', 'w', 'rework', '99', 'company', 'subject', 'terrible', 'corporate', 'governance']",2
+792,"['rework', 'definitely', 'go', 'public', 'time', 'soon', 'if', 'po', 'implode']",2
+793,"['some', 'rework', 'board', 'are', 'said', 'be', 'discussing', 'replacing', 'its', 'c', 'e', 'o']",2
+796,"['alexandria', 'ocasiocortez', 'say', 'anyone', 'invest', 'reworks', '47', 'billion', 'valuation', 'get', 'fleece', 'via']",1
+797,"['broadloom', 'rework', 'dow', 'futures', 'china', 'trade', 'cloudflare', '5', 'things', 'you', 'must', 'know', 'via']",2
+798,"['right', 'review', 'monthly', 'cost', 'reduce', 'expense', 'member', 'eventbrite', 'charge', 'fee', 'paid', 'booking', 'free', 'one', 'either', 'party', 'rework', 'probably', 'try', 'cash', '200', 'paid', 'acquire', 'some', 'interest', 'alternative', 'like', 'look']",1
+799,"['no', 'surprise', 'rework', 'ceo', 'adam', 'neumann', 'step', 'remains', 'non-executive', 'chairman', 'via']",2
+800,"['masayoshi', 'son', 'unyielding', 'optimism', 'lack', 'challenger', 'lead', 'postbank', 'overvalue', 'rework', 'source', 'say']",2
+801,"['what', 'typical', 'recourse', 'surely', 'non-recourse', 'least', 'collateral', 'share', 'put', 'like', 'rework']",2
+803,"[""three's"", 'lot', 'learn', 'po', 'fiasco', 'wow']",2
+804,"['pull', 'thousand', 'phone', 'booth', 'service', 'formaldehyde', 'scare', 'via']",1
+806,[],2
+807,"['rework', 'po', 'clusterfck', 'a', 'verbal', 'homicide', 'article']",1
+808,"['weworkのニューマンceoが辞任', '非常勤の会長職に', 'techcrunch', 'japan']",2
+809,"['postbank', 'planning', 'take', 'write-down', 'least', '5', 'billion', 'reflect', 'plunge', 'value', 'holding', 'include', 'rework', 'user', 'source', 'say', 'via']",2
+812,"['reworks', 'wife', 'is', 'woefully', 'insecure']",1
+813,"['under', 'pressure', 'leave', 'board', 'member', 'investor', 'recent', 'day', 'mr', 'neumann', 'become', 'non-executive', 'chairman', 'we', 'company', 'rework', 'name', 'two', 'current', 'executive', 'sebastian', 'cunningham', 'arnie', 'minton', 'interim', 'chief', 'executive']",2
+814,"['lending', 'rework', 'potentially', 'dicey', 'one', 'junk-bond', 'investor', 'diamond', 'hill', 'capital', 'management', 'john', 'mcclair', 'say', 'anybody', 'brave', 'enough', 'would', 'take', 'substantial', 'career', 'risk', 'とまで言われているけどsbgは全損を避けたくて追加投資せざるを得ないんやで']",1
+815,"['new', 'post', 'rework', 'founder', 'get', 'nearly', '1', '7', 'billion', 'let', 'postbank', 'take', 'company']",2
+816,"['even', 'oust', 'adam', 'neumann', 'ceo', 'rework', 'could', 'still', 'go', 'public', 'year', 'price', 'po', 'low', 'enough']",2
+817,"['rework', '10', 'community', 'adjust', 'valuation']",2
+818,"['the', 'rework', 'set', 'show', 'how', 'work', 'giant', 'go', '47', 'billion', 'valuation', 'talk', 'bankruptcy', '6', 'week', 'via']",1
+819,"['meet', 'frances', 'frei', 'rework', 'first', 'female', 'board', 'member']",2
+820,"['rework', 'collapse', 'businessschool', 'study', 'excess', 'private', 'capital', 'unregulated', 'market', 'fetishist', 'wealth-creating', 'genius', 'lone', 'pioneer']",1
+821,"['here', 'come', 'pain', 'major', 'cut', 'come', 'surprise', 'divesting', 'non-core', 'biz', 'like', 'regrow', 'child', 'care', 'there', 'slot', 'pain', 'path', 'profitability', 'even', 'achievable', 'imo', '2025', 'major', 'risk', 'worth', 'pain']",1
+822,"['rework', 'agree', ""softbank's"", 'bail-out', 'value', 'company', '7', '5', 'billion', '8', 'billion', 'accord', 'nbc']",2
+823,"['interesting', 'take', 'rework', 'having', 'work', 'multiple', 'different', 'client', 'rework', 'office', 'i', 'always', 'felt', 'bit', 'uneasy', 'whole', 'thing']",1
+824,"['with', 'news', 'rework', 'might', 'make', 'november', 'i', 'go', 'talk', 'company', 'impend', 'demise', '1999', 'vibe', 'pulse', 'tech']",1
+826,"['oh', 'rework', 'ceo', 'step']",2
+827,"['why', 'harness', 'wealth', 'founder', 'say', 'reworks', 'po', 'valuation', 'slash', 'via']",1
+828,"['by', 'acquire', 'language', 'uplift', 'spirituality', 'american', 'capitalism', 'reform', 'it', 'claimed', 'another', 'commodity', 'possess', 'market', 'sell', 'adam', 'neumann', 'exit', 'rework']",2
+830,"['given', 'rework', 'probably']",2
+831,"['how', 'postbank', 'make', 'rework', 'offer', 'accept', 'economic', 'times']",2
+832,"['we', 'rework', 'has', 'killed', 'what', 'used', 'to', 'the', 'best', 'free', 'lunch', 'on', 'wall', 'street', 'continue', 'reading']",1
+833,"['is', 'distinction', 'rework', 'ponti', 'scheme']",1
+834,"['the', 'purge', 'continue', 'rework', 'head', 'real', 'estate', 'leave', 'today', 'roster', 'rework', 'departure', 'include', 'grant', 'gjonbalaj', 'company', 'head', 'real', 'estate', 'development', 'gjonbalaj', 'oversaw', 'real', 'estate', 'operation', 'include', 'design', 'construction', 'prove']",2
+836,"['rework', 'still', 'around', 'long', 'force', 'drop']",2
+837,"['great', 'see', 'ceo', 'demo', 'day', 'she', 'tenavox', 'kill', 'since', 'i', 'met', 'veterans', 'residence', 'if', 'look', 'lease', 'office', 'space', 'make', 'simple', 'use']",2
+838,"['in', 'new', 'headache', 'rework', 'say', 'found', 'chemical', 'phone', 'boothshttps', 'rest', 'r', '2b9bqmn']",1
+839,"['rework', 'planning', 'lay', 'thousand', 'people', '25', 'employee', 'new', 'ceos', 'focus', 'core', 'business', 'rework', 'planning', 'lay', '10', '25', 'workforce', 'sour']",1
+840,"['user', 'left', 'slack', 'imagine', 'public', 'valuation', 'profitable', 'private', 'company', 'come', 'market']",2
+841,"['spotted', 'london']",2
+842,"['rework', 'staff', 'face', 'job', 'cut', 'express', 'outrage', 'founder', 'payout', 'via']",1
+843,"['does', 'vegas', 'rework']",2
+845,"['insightful', 'infographic', 'courtesy', 'news', 'coverage', 'sentiment', 'last', 'year']",2
+846,"['we', 'call', 'time', 'pause', 'think', ""don't"", 'jump', 'fad', 'show', 'money']",1
+847,"['businesses', 'need', 'place', 'locate', 'what', 'happens', 'business', 'use', 'service', 'rework', 'declares', 'bankruptcy']",1
+848,"['sayonara', 'sucker']",1
+849,"['rework', 'shelves', 'po', 'now', 'under', 'new', 'leadership']",2
+850,"['daily', 'crunch', 'rework', 'ceo', 'face', 'investor', 'pressure']",1
+851,"['still', 'terrible', 'move', 'affect', 'meet', 'arendt', 'wordless', 'foundation', 'umbrella', 'this', 'definitely', 'death', 'knell', 'meet', 'gotten', 'bad', 'since', 'rework', 'bought', 'an', 'alternative', 'definitely', 'need']",1
+855,"['whaaaat', 'rework', 'play', 'music']",1
+856,"['rework', 'q3', '2019', 'financial', 'results', 'conference', 'call']",2
+857,"['rework', 'see', 'startup', 'lesson', 'silicon', 'valley']",1
+859,"['why', 'really', 'dead']",1
+860,"['we', 'know', 'rework', 'mess', 'fact', 'scoop', 'stagger', 'last', 'year', 'report', 'loss', '1', 'ibn', 'sale', '1', 'ibn', 'whatever', 'money', 'postbank', 'pile', 'safeguard', 'investment', 'date', 'cc']",1
+861,"['postbank', 'add', 'financial', 'burden', '10', 'billion', 'rework', 'deal']",2
+862,"['i', 'always', 'thought', 'something', 'shady', 'rework', 'lol', 'i', 'logical', 'explanation', 'the', 'concept', 'company', 'scream', 'scam', 'lol']",1
+864,"['scarlet', 'rework', 'considers', 'po', 'valuation', 'low', '10', 'bi']",1
+868,"['rework', 'look', 'sell', 'spin', 'acquisition', 'include', 'firm', 'conductor']",2
+869,"['programmer', 'probably', 'first', 'kind', 'worker', 'bound', 'geography']",3
+871,"['norfolk', 'news', 'reworks', 'new', 'coco', 'planning', 'oust', '20', 'adam', 'neumann', 'friend', 'family', 'member', 'insider']",2
+872,"['oh', 'we', 'important', 'update', 'share', 'regard', 'phone', 'booth', 'rework', 'location', 'we', 'take', 'number', 'phone', 'booth', 'location', 'service', 'due', 'potentially', 'elevate', 'level', 'formaldehyde', 'cause', 'manufacturer']",2
+873,"['rework', 'board', 'considers', 'rescue', 'plan', 'postbank', 'morgan']",2
+874,"['trade', 'agreement', 'earnings', 'season', 'boeing', 'libra', 'rework', '5', 'things', 'you', 'must', 'know']",2
+877,"['their', 'bond', 'yield', 'well', '13', 'i', 'think', 'new', 'money', 'pik', 'note', '15', 'generous', 'rework']",2
+879,"['short', 'interest', 'rework', 'bond', 'jump', 'record', 'high']",2
+880,"['so', 'reworks', 'business', 'model', 'over', 'emphasise', 'importance', 'purpose', 'collaborative', 'work', 'space', 'spend', 'much', 'charge', 'little', 'bank', 'massive', 'po', 'save', 'flaw', 'plan', 'good']",1
+881,"['delicious', 'drinking', 'hoppy', 'amber', 'lager', 'bourke', 'street']",2
+882,"['add', 'woman', 'board', 'po', 'filing', 'backlash']",2
+883,"['rework', 'concern', 'seep', 'singapore', 'real', 'estate', 'sector', 'via']",1
+884,"['rework', 'po', 'debacle', 'highlight', 'failure', 'modern', 'brand', 'building']",1
+885,"['rework', 'ceo', 'adam', 'neumann', 'step', 'remains', 'non-executive', 'chairman', 'via']",2
+886,"['reworks', 'wife', 'exposed', 'files', 'credentials', 'email']",1
+887,"['i', 'heard', 'recruiter', 'startup', 'negotiation', 'around', 'option', 'like', 'buying', 'car', 'know', 'currency', 'haggle', '7', 'year', 'later']",2
+888,"['he', 'smoking', 'supply', 'postbank', 'rework', 'overcoverage', 'anything', 'scale', '100', 'destine', 'extreme', 'outlier', 'case', 'treat']",2
+889,"['yourstoryco', 'pay', 'adam', 'neumann', '1', 'b', 'take']",2
+890,"['it', 'definitely', 'pretty', 'empty', 'why', 'saving', 'rework', 'will', 'be', 'hard']",1
+891,"['looks', 'really', 'nice', 'love', 'vault', 'ceiling', 'natural', 'light', 'how', 'experience', 'rework', 'move']",3
+892,"['short', 'seller', 'snap', 'rework', 'debt', 'amid', 'concern', 'future']",1
+893,"['this', 'call', 'un', 'tuitazo', 'neighborhood']",2
+894,"['having', 'work', 'rework']",2
+895,"['while', 'implode', 'i', 'get', 'target', 'ad', 'whereas', 'moat']",1
+896,"['reworks', 'adam', 'neumann', 'need', 'apply', 'luxury', 'manhattan', 'apartment', 'fox', 'news']",2
+898,"['s', 'p', 'downgrades', 'rework', 'to', 'due', 'to', 'liquidity', 'strains']",1
+899,"['people', 'important', 'thing', 'business', 'model', 'product', 'follow', 'right', 'people']",3
+900,"['group', 'profit', 'plunge', 'owe', 'turmoil']",1
+902,"['rework', 'user', 'proof', 'valuation', 'meaningless']",1
+903,"['it', 'fun', 'last', 'rework', 'c', 'e', 'o', 'adam', 'neumann', 'steps', 'down', 'under', 'pressure']",3
+904,"['rework', 'largest', 'investor', 'plotting', 'remove', 'adam', 'neumann', 'ceo']",1
+906,"['ever', 'rework', 'office', 'did', 'trust', 'network', 'how', 'combat', 'does', 'trick', 'what', 'think']",1
+907,"['some', 'rework', 'board', 'member', 'seek', 'remove', 'adam', 'neumann', 'ceo']",2
+908,"['how', 'rework', 'co-founder', 'adam', 'neumann', 'stop', 'millionaire', 'track']",2
+909,"['guard', 'office', 'austin', 'often', 'bully', 'keep', 'opinion']",1
+910,"['rework', 'founder', 'adam', 'neumann', 'remove', 'forbes', 'billionaire', 'list']",2
+912,"['have', 'favorite', 'private', 'short', 'even', 'bad', 'i', 'thought', 'rework']",1
+913,"['come', 'meet']",2
+914,"['i', 'hope', 'lord', 'get', 'paid', 'rework', 'stock']",1
+915,"['rework', 'long', 'road', 'rehabilitation', 'start', 'ditch', 'co-founder']",1
+917,"['for', 'rework', 'investor', 'benchmark', 'struggle', 'balance', 'board', 'duties', 'with', 'founder', 'support', 'w']",2
+919,"['postbank', 'book', 'loss', '7', 'billion', 'rework', 'user', 'others', 'showering', '1', '7', 'billion', 'neumann', 'hanging', 'employees', 'out']",2
+920,"['postbank', 'announces', '80', 'rework', 'provide', 'billion', 'keep', 'operating']",2
+921,"['rework', 'ceo']",2
+923,"['vc', 'brad', 'felt', 'rework', 'postbank', 'venture', 'firm', 'may', 'slow', 'pace', '2020', 'techcrunch']",2
+924,"['small', 'piece', 'office', 'space', 'market', 'make', 'big', 'chunk', 'growth', 'thats', 'concern', 'like', 'president', 'rosengarten', 'come']",1
+925,"['tired', 'hearing', 'bad', 'rework', 'suck']",1
+926,"['still', 'call', 'i', 'say', 'like']",1
+927,"['rework', '1', 'already', 'disguise', 'tech', 'company', '2', 'keep', 'try', 'rise', 'grave', 'keep', 'reach', 'po']",1
+928,"['rework', 'discusses', '5', 'billion', 'debt', 'package', 'with', 'lenders']",2
+929,"['withdocu', 'boughtstock', 'nottouchingoptionsonanythingsonew', ""unlessi'mshortingit"", 'lovetheconcept', 'but', 'lookingforwardtoshorting']",2
+930,"['even', 'free', 'event']",2
+931,"['by now', 'pay', 'later', 'player', 'puddle', 'rather', 'moat', 'credit', 'card', 'company', 'like', 'breach', 'step', 'reworks', 'ipokiller', 'give', 'afterpay', 'verdict']",1
+932,"['how', 'would', 'tax', 'outside', 'investor', 'unrealized', 'gain', 'vanished', 'penalize', 'company', 'how', 'i', 'legitimate', 'taxpayer', 'hurt', 'happen', 'rework', 'investor', 'please', 'think', 'tweet']",2
+933,"['let', 'check', 'rework', 'po']",2
+934,"['incredibly', 'stable', 'company', 'rework', 'appears', 'to', 'be', 'investing', 'in', 'incredibly', 'stable', 'industry', 'sport']",2
+935,"['nyligen', 'last', 'ive', 'never', 'felt', 'professionally', 'lonelier', 'than', 'i', 'did', 'rework']",1
+937,[],1
+938,"['rework', 'latest', 'threat', 'oldschool', 'landlords', 'trying', 'copy', 'rework']",1
+939,"['this', 'wednesday', '918', '530', 'pm', 'matt', 'chesky', 'present', '205', 'hudson', 'street', 'new', 'york', 'ny', 'bonus', 'attendee', 'receive', 'free', 'whitelabel', 'chariot', 'agency', 'power', 'leo', 'worth', '6', '000', 'rsvp']",2
+940,"['that', 'wrap', 'first', 'many', 'show', 's', 'o', 'a', 'huge', 'thank', 'you', 'sponsor', 'stay', 'tuned']",2
+941,"['postbank', 'seek', 'avoid', 'rework', 'liability', 'new', 'investment', 'source']",1
+944,"['biggest', 'surprise', 'pull', 'musk', 'bury', 'bad', 'footnote', '10', 'consider', 'creative', 'accounting', 'rework', 'ink', 'parma', 'gen', 'electric', 'deutsche', 'b', 'surprised', 'ce', 'f', 'o', 'dint', 'goose', 'stock', 'maybe', '4', '5', 'day', 'sell', 'outta', 'lock-up', 'kinda', 'rare', 'honesty']",2
+945,"['holy', 'moly', 'postbank', 'take', '6', '5', 'billion', 'loss', 'get', 'much', 'financial', 'exposure', 'oh', 'financial', 'system', 'remains', 'hugely', 'vulnerable']",1
+946,"['drop', 'focus', 'well', 'keep', 'eye', 'let', 'know', 'development']",2
+947,"['peloton', 'flywheel', 'lock', 'escalate', 'legal', 'battle', 'now', 'peloton', 'prepares', 'go', 'public', 'want', 'know', 'flywheel', 'discuss', 'lawsuit', 'rework', 'third', 'party']",2
+948,"['meet', 'staff', 'time', 'organize', 'fellow', 'rework', 'employee', 'demand', 'company', 'fully', 'reimburse', 'worthless', 'stock', 'option', 'end', 'force', 'arbitration', 'agreement']",1
+950,"['rework', 'pull', 'thousand', 'phone', 'booth', 'service', 'formaldehyde', 'scare']",1
+951,"['leased', 'rework', '1000', 'markup']",2
+952,"['sec', 'fordham', 'university', 'school', 'law', 'host', 'conference', 'combating', 'community-based', 'financial', 'fraud', 'sounds', 'like', 'a', 'rework', 'seminar', 'community-based', 'financial', 'fraud']",2
+953,"['can', 'agree', 'rework', 'tech', 'company']",2
+954,"['rework', 'ceo', 'adam', 'neumann', 'step', 'amid', 'controversy', 'retain', 'chair', 'role']",1
+955,"['i', 'wonder', 'many', 'time', 'rework', 'mention', 'call']",2
+956,"['rework', ""n't"", 'only', 'wreck', 'hiding', 'your', 'portfolio']",1
+957,"['postbank', 'to', 'take', 'over', 'rework', 'in', 'major', 'blow', 'to', 'jp', 'morgan', 'adam', 'neumann', 'jpmhttps', 'newsfilter', 'io', 'article', 'softbanktotakeoverweworkinmajorblowtojpmorganadamneumannf624fc95018ee0a7c743e9b27a886fa5']",2
+958,"['développeur', 'full-back', 'js', 'h', 'f', 'rework', 'moonlit', 'paris', 'france']",2
+959,"['window', 'closing', 'fast', 'rework', 'parent', 'launch', 'po', 'year']",2
+960,"['that', 'funny', 'i', 'felt', 'sleepiness', 'every', 'time', 'i', 'rework', 'turns', 'founder', 'obsess', 'rich', 'change', 'world']",1
+962,"['story', 'turn', 'first', 'class', 'detective', 'thriller', 'stock']",2
+963,"['after', 'rework', 'debacle', 'postbank', 'bos', 'son', 'adopt', 'cautious', 'po', 'course']",2
+965,"['work', 'stay', 'despite', 'rework', 'concern', 'jefferies', 'dbs']",1
+966,['apply'],2
+967,"['why', 'rework', 'failed', 'po', 'might', 'not', 'mean', 'disaster', 'for', 'postbank', 'after', 'all']",3
+969,"['i', 'understand', 'why', 'postbank', 'give', 'neumann', '1', '000', '000', '000', 'why', 'let', 'rework', 'fail', 'implode', 'do', 'think', 'save', 'recover', 'anything', 'back', 'investment']",2
+970,"['lots', 'extremely', 'successful', 'cash', 'early', 'but', 'ceo', 'pocket', '700', 'million', 'still', 'far', 'normal', 'via']",2
+972,"['building', 'team', 'all', 'social', 'medium', 'guru', 'pls', 'dm', 'email', 'meeting', 'rework', 'office', 'city']",2
+973,"['you', 'mean', 'rework']",2
+974,"['rework', 'look', 'sell', 'spin', 'acquisition', 'include', 'firm', 'conductor']",2
+975,"['expectations', 'rework', 'continue', 'deflate', 'new', 'york', 'city-based', 'unicorn', 'move', 'toward', 'initial', 'public', 'offering']",2
+976,"['rework', 'pulls', 'out', 'its', 'troubled', 'po']",2
+978,"['the', 'turmoil', 'reworks', 'heavily', 'impact', 'postbank', 'force', 'consider', 'funnel', '1', 'billion', 'rework', 'delayed', 'po']",1
+980,"['getting', 'fire', 'rework', 'way']",1
+981,"['neumann', 'he', 'cling', 'power', 'thing', 'go', 'bad', 'is', 'not', 'the', 'right', 'response', 'ahead', 'likely', 'wish', 'rework', ""c'mon"", 'surfer']",1
+982,"['rework', 'pull', 'thousand', 'phone', 'booth', 'service', 'formaldehyde', 'scare']",1
+983,"['are', 'bay', 'area', 'please', 'join', 'u', 'host', 'friend', 'san', 'jose', 'implementing', 'shiftless', 'testing', 'culture', 'present', 'baiji', 'joseph', 'thalupadath', 'director', 'quality', 'engineering', 'small', 'business', 'rsvp']",2
+984,"['one', 'great', 'swindle', 'venture', 'capital', 'history', 'rework', 'story', 'keep', 'give']",1
+987,"['think', 'rework', 'go', 'public', 'matter', 'business', 'strategy', 'basically', 'long', 'term', 'ie', 'think', 'prove', 'anything', 'new', 'w', 'time']",2
+989,"['rework', 'nearly', 'halves', 'its', 'po', 'valuation', 'amid', 'wary', 'investors']",2
+991,"['rework', 'plan', 'lay', '4', '000', 'staff', 'ft']",1
+992,"['el', 'fracas', 'de', 'rework', ""'pincha'"", 'la', 'opcs', 'en', 'pérdidas', 'la', 'valoraciones', 'absurd']",2
+993,"['how', 'get', 'po', 'do', 'first', 'spend', 'proceeds', 'the', 'energy', 'sector', 'topped', '2014', 'did', 'see', 'rework']",2
+995,"['rework', 'ceo', 'step', 'aside', 'amid', 'question', 'company', 'finance']",1
+996,"[""three's"", 'huge', 'demand', 'rework', 'place', 'like', 'nec', 'they', 'hyped', 'expand', 'this', 'nothing', 'new', 'the', 'real', 'issue', 'people', 'postbank', 'stupid', 'know', 'look', 'like']",1
+998,"['both', 'user', 'left', 'share', 'go', 'public', 'fairly', 'recently', 'hit', 'alltime', 'low', 'today', 'possibly', 'news', 'rework', 'pull', 'po']",1
+1000,"['give', 'hour', 'i', 'shall', 'defeat', 'how', 'love']",3
