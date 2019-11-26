@@ -10,12 +10,20 @@ import string
 import re
 import emoji
 from nltk.stem.snowball import SnowballStemmer
+import tweepy
+import botometer
+import csv
+import pandas as pd
 pd.set_option('display.max_colwidth', 100)
 
-# Load dataset
-def load_data():
-    data = pd.read_csv('output_got.csv')
-    return data
+#FOR THE BOTOMETER
+rapidapi_key = "3e780f0aa5msh2c957bc129c5c4fp1e42aajsn52ac7cb58a9d" # now it's called rapidapi key
+OAUTH_KEYS = {'consumer_key':'BWDvPWSmrJ18xEBTPbTkxiGm9', 'consumer_secret':'FodmJZP8RPjdG5ZJ0dz6xpNEjOFYG5LnFTjvmKKze8e0GmAO8b',
+    'access_token_key':'769205140645642240-pFoG4e2EpEQft63BjruaLmLvuehRQDx', 'access_token_secret':'NvpPKD8xZKd14NxmuzONg2rAApMjYkJK5wmkyE1UGgBOk'}
+
+bom = botometer.Botometer(wait_on_ratelimit=True,
+                          rapidapi_key=rapidapi_key,
+                          **OAUTH_KEYS)
 
 def remove_emoji(text):
     """Converts emojis to words
@@ -59,14 +67,35 @@ def remove_username(text):
     pattern = r"@\S+"
     return re.sub(pattern, "",text)
 
-#tweet_df = load_data()
-#df  = pd.DataFrame(tweet_df[['username', 'text']])
-#df['text_noEmoji'] = df['text'].apply(lambda x: remove_emoji(x))
-#df['text_nostop'] = df['text_noEmoji'].apply(lambda x: remove_stopwords(x))
-#df.head(10)
-#df.to_csv("output_got.csv")
+def checkBot(author):
+    """Input can be @username or author ID
+    """
+    #try:
+    currID = author
+    result = bom.check_account(currID)
+    check = result['scores']
+    if check['english'] > 0.55:
+        return 1 #is a Bot
+    else:
+        return 0
+    #except tweepy.error.TweepError:
+        #pass
 
-#tweet_df.head()
+
+tweet_df = pd.read_csv("output_got.csv")
+df  = pd.DataFrame(tweet_df[['id', 'text']])
+df['text'] = df['text'].apply(lambda x: remove_emoji(x))
+df['text'] = df['text'].apply(lambda x: remove_hashtag(x))
+df['text'] = df['text'].apply(lambda x: remove_url(x))
+df['text'] = df['text'].apply(lambda x: remove_username(x))
+df['bot?'] = df['id'].apply(lambda x: checkBot(x))
+#df['text_nostop'] = df['text_noEmoji'].apply(lambda x: remove_stopwords(x))
+print(df.head(10))
+df.to_csv("output_got.csv")
+
+
+ 
+
 
 tweet="Testing🤠 Sarah's @what cradle loves pizza and cats but she doesn't herself. #lol https://google.com www.cya.com"
 tweet = remove_emoji(tweet)
