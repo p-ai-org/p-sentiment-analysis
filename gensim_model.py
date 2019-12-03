@@ -80,8 +80,10 @@ def add_vecs_to_df(sentences, df):
     df['vector'] = vectors
     # Drop text column
     df = df.drop('text', 1)
+    # Normalize sentiment
+    df['sentiment'] = df['sentiment'].apply(lambda x: (x - 1) * 2)
     return df
-
+    
 """ EITHER LOAD A MODEL OR TRAIN ONE """
 
 """ Load an existing model """
@@ -99,4 +101,4 @@ model = FastText.load('models/model_1/gensim_model_1')
 vectored_data = add_vecs_to_df(cleaned_data['text'], cleaned_data)
 
 # Save our df to a csv
-vectored_data.to_csv('trainingandtestdata/training_vectors.csv')
+vectored_data.to_csv('trainingandtestdata/norm_training_vectors.csv')
