@@ -35,7 +35,7 @@ def scrape(query, since, until, max, retry=1): #Use GetOldTweets3 to query Twitt
         #TODO: a timeout for this would be nice
         tweets = got.manager.TweetManager.getTweets(tweetCriteria) #This is the part that actually downloads the data
         if len(tweets) > 0: break
-        else: print("\tAttempt "+str(attempt)+" got 0 tweets. "+"Retrying." if attempt < retry-1 else "Moving on.")
+        else: print("\tAttempt "+str(attempt)+" got 0 tweets. "+("Retrying." if attempt < retry-1 else "Moving on."))
     calculated_values = {"id": lambda x: x.id,
                         "permalink": lambda x: x.permalink,
                         "username": lambda x: x.username,
