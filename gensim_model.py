@@ -78,11 +78,18 @@ def add_vecs_to_df(sentences, df):
         vectors.append(average_vectors(sent))
     # Add vectors as new column to df
     df['vector'] = vectors
+    df['vector'].apply(spread_vectors)
     # Drop text column
     df = df.drop('text', 1)
-    # Normalize sentiment
-    df['sentiment'] = df['sentiment'].apply(lambda x: (x - 1) * 2)
+    # Drop vector column
+    df = df.drop('vector', 1)
+    # Subtract 1 from sentiment column
+    df['sentiment'] = df['sentiment'].apply(lambda x: x - 1)
     return df
+
+def spread_vectors(vector):
+    for i in range(100):
+        cleaned_data['v'+str(i)] = vector[i]
     
 """ EITHER LOAD A MODEL OR TRAIN ONE """
 
@@ -101,4 +108,4 @@ model = FastText.load('models/model_1/gensim_model_1')
 vectored_data = add_vecs_to_df(cleaned_data['text'], cleaned_data)
 
 # Save our df to a csv
-vectored_data.to_csv('trainingandtestdata/norm_training_vectors.csv')
+vectored_data.to_csv('trainingandtestdata/spread_training_vectors.csv')

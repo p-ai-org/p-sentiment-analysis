@@ -21,8 +21,6 @@ def clean_tweet(tweet):
     # Tokenize
     # tokens = nltk.word_tokenize(tweet)
     
-    # Correct spelling
-    tokens = correct_spelling(tokens)
     # Remove stop words
     tokens = remove_stop_words(tokens)
     # Lemmatize
