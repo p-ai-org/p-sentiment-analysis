@@ -2,7 +2,6 @@ import tensorflow as tf
 import pandas as pd
 import re
 import ast
-from keras import backend as K
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Embedding, LSTM
 from sklearn.model_selection import train_test_split

@@ -1,13 +1,11 @@
 import nltk
 import re
 import string
-from pycontractions import Contractions
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import TweetTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
-from spellchecker import SpellChecker
 import time
 stop_words = set(stopwords.words('english'))
 # Let's keep 'not' in the tweets
@@ -16,7 +14,6 @@ stop_words.remove('not')
 # Instantiate lemmatizer
 lemmatizer = WordNetLemmatizer()
 tweet_tokenizer = TweetTokenizer()
-spell = SpellChecker()
 
 # Top level tweet cleaner
 def clean_tweet(tweet):
@@ -55,9 +52,6 @@ def clean_concatenations(token):
     elif len(token) == 1:
         return 'is'
     return token
-
-def correct_spelling(tokens):
-    return [spell.correction(w) for w in tokens] 
 
 def lemmatize(tokens):
     return [lemmatizer.lemmatize(w, get_pos(w)) for w in tokens]
