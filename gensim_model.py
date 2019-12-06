@@ -26,12 +26,12 @@ def get_our_training_data(fname):
     return cleaned
 
 # Get the training data we labeled
-cleaned_data = get_our_training_data('cleaned_training_data_1.csv')
+cleaned_data = get_our_training_data('cleaned_training_data.csv')
 
 # Get sentiment 140 sentences as a list
 def get_sentiment140():
     # Convert csv to pandas
-    sentiment140 = pd.read_csv('trainingandtestdata/cleaned_sentiment_140.csv')
+    sentiment140 = pd.read_csv('trainingandtestdata/cleaned_sentiment_140_2.csv')
     # Get rid of quotes from csv
     sentiment140['text'] = sentiment140['text'].apply(ast.literal_eval)
     # Get sentences and sentiments
@@ -78,7 +78,13 @@ def add_vecs_to_df(sentences, df):
         vectors.append(average_vectors(sent))
     # Add vectors as new column to df
     df['vector'] = vectors
-    df['vector'].apply(spread_vectors)
+    # Add 100 columns for the vectors
+    for dim in range(100):
+        cleaned_data['v'+str(dim)] = 0.0
+    # Distribute vector across 100 columns
+    for row in range(df.shape[0]):
+        for dim in range(100):
+            cleaned_data['v'+str(dim)][row] = df['vector'][row][dim]
     # Drop text column
     df = df.drop('text', 1)
     # Drop vector column
@@ -86,21 +92,16 @@ def add_vecs_to_df(sentences, df):
     # Subtract 1 from sentiment column
     df['sentiment'] = df['sentiment'].apply(lambda x: x - 1)
     return df
-
-def spread_vectors(vector):
-    for i in range(100):
-        cleaned_data['v'+str(i)] = vector[i]
     
 """ EITHER LOAD A MODEL OR TRAIN ONE """
 
 """ Load an existing model """
-model = FastText.load('models/model_1/gensim_model_1')
+model = FastText.load('models/model_2/gensim_model_2')
 
 """ Train a new model """
 # model = pre_train(get_sentiment140())
-# model = train_on_our_data(model, cleaned_data['text'].tolist())
 """ Save the model """
-# model.save('models/model_1/gensim_model_1')
+# model.save('models/model_2/gensim_model_2')
 
 """ PRODUCE VECTORED DATAFRAME """
 

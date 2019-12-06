@@ -2,6 +2,7 @@ import tensorflow as tf
 import pandas as pd
 import re
 import ast
+from keras import backend as K
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Embedding, LSTM
 from sklearn.model_selection import train_test_split
@@ -36,10 +37,12 @@ def create_lstm_model(embed_dim, lstm_out, batch_size):
     print(model.summary())
     return model
 
+""" SEQUENTIAL """
+
 def create_simple_model():
     model = Sequential()
     model.add(Dense(12, input_dim=100, activation='relu'))
-    model.add(Dense(50, activation='relu'))
+    model.add(Dense(256, activation='relu'))
     model.add(Dense(3, activation='softmax'))
     model.compile(loss = 'sparse_categorical_crossentropy', optimizer='adam', metrics = ['accuracy'])
     print(model.metrics_names)
@@ -48,6 +51,6 @@ def create_simple_model():
 
 # model = create_lstm_model(128, 200, 32)
 model = create_simple_model()
-model.fit(X_train, y_train, batch_size = 50, epochs = 10,  verbose = 5)
+model.fit(X_train, y_train, batch_size = 50, epochs = 25,  verbose = 5)
 score = model.evaluate(X_valid, y_valid, 50)
 print(score)

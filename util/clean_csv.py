@@ -7,6 +7,7 @@ data = pd.read_csv("trainingandtestdata/compiled_training_data.csv")
 # data = data.loc[0:1000, ['text', 'sentiment']]
 data = data[['text', 'sentiment']]
 data = data[data.sentiment != 'n']
+print(data.head())
 data['text'] = data['text'].apply(clean_tweets.clean_tweet)
 data.reset_index(drop=True, inplace=True)
-data.to_csv(r'trainingandtestdata/cleaned_training_data_2.csv')
+data.to_csv(r'trainingandtestdata/cleaned_training_data.csv')

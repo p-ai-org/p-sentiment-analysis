@@ -2,7 +2,7 @@ from gensim.models import FastText
 import pandas as pd
 
 # Get labeled data
-training_data = pd.read_csv("trainingandtestdata/cleaned_training_data_1.csv")
+training_data = pd.read_csv("trainingandtestdata/cleaned_training_data.csv")
 # Sentences and sentiments
 sentences = training_data['text'].tolist()
 sentiments = training_data['sentiment'].tolist()

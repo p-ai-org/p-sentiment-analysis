@@ -1,50 +1,60 @@
 import nltk
 import re
 import string
+from pycontractions import Contractions
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from nltk.tokenize import TweetTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 from spellchecker import SpellChecker
 import time
 stop_words = set(stopwords.words('english'))
+# Let's keep 'not' in the tweets
+stop_words.remove('not')
 
 # Instantiate lemmatizer
 lemmatizer = WordNetLemmatizer()
+tweet_tokenizer = TweetTokenizer()
 spell = SpellChecker()
 
 # Top level tweet cleaner
 def clean_tweet(tweet):
-    # Remove unwanted features like names and hashtags and tokenize
-    tokens = remove_unwanted(tweet)
-    
+    # Let's just split up words with apostrophes
+    tokens = tweet.replace("'", ' ')
     # Tokenize
-    # tokens = nltk.word_tokenize(tweet)
-    
+    tokens = tweet_tokenizer.tokenize(tokens)
+    # Remove unwanted features like names and hashtags and tokenize
+    tokens = remove_unwanted(tokens)
+    # Lowercase
+    tokens = [x.lower() for x in tokens]
+    # Clean up after splitting by apostrophe
+    tokens = [clean_concatenations(x) for x in tokens]
     # Remove stop words
     tokens = remove_stop_words(tokens)
     # Lemmatize
     tweet_cleaned = lemmatize(tokens)
-    tweet_cleaned = [item.lower() for item in tweet_cleaned]
     return tweet_cleaned
 
 # Remove urls, punctiation, hashtags, etc
-def remove_unwanted(tweet):
-    # Split up by words to remove urls, then put back together
-    tweet = remove_urls(tweet.split(' '))
+def remove_unwanted(tokens):
+    # Remove URLs
+    tweet = remove_urls(tokens)
     # Remove hastags, names, and RT
     tweet = remove_twitter_stuff(tweet)
-    tweet = ' '.join(tweet)
     # Remove punctuation
-    exclude = r'"#$%*+-:-;<=>@[\]^_`{|}~'
-    space = r'.,!&()/?'
-    tweet = ''.join(ch for ch in tweet if ch not in exclude)
-    for c in space:
-        tweet = tweet.replace(c, ' ')
-    # Get all words
-    tweet = re.findall(r"[\w']+", tweet)
+    exclude = re.compile(r'^[,\.!?/\-"#$%&\'\(\)\*\+:;\[\]\\^_{|}~]*$')
+    tweet = [x for x in tweet if not exclude.search(x)]
     return tweet
 
+# Clean up common results of splitting by apostrophe (also deal with 'u' abbreviation)
+def clean_concatenations(token):
+    if token == "t":
+        return 'not'
+    # If it's just one letter, return something that'll get taken out by stop_words
+    elif len(token) == 1:
+        return 'is'
+    return token
 
 def correct_spelling(tokens):
     return [spell.correction(w) for w in tokens] 
@@ -75,5 +85,6 @@ def remove_urls(tweet_tokens):
     regex = re.compile(r'^http|.*\.com.*')
     return [i for i in tweet_tokens if not regex.search(i)]
 
-# tweet = "downloading apps for my iphone! So much fun :-) There literally is an app for just about anything."
-# print(clean_tweet(tweet))
+# tweet = "What won't you do, you f'n coward? ... I thought u were already in sd?? Hmmm. Random u found me. Glad to hear yer doing well."
+# cleaned = clean_tweet(tweet)
+# print(cleaned)

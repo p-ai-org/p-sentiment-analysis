@@ -10,15 +10,20 @@ def combine(x):
         return x['sentiment_b']
     if isinstance(x['sentiment_b'], float):
         return x['sentiment_a']
-    # If they disagree, don't use it
+    # If they disagree...
     if x['sentiment_a'] != x['sentiment_b']:
-        return 'n'
+        # If one is neutral, call it neutral
+        if x['sentiment_a'] == '2' or x['sentiment_b'] == '2':
+            return '2'
+        # One is positive and one is negative, discard
+        else:
+            return 'n'
     # They agree! Use either one
     return x['sentiment_a']
 
 # Load sheets
 a_sheet = pd.read_csv("trainingandtestdata/a_training_sheet.csv")
-b_sheet = pd.read_csv("trainingandtestdata/a_training_sheet.csv")
+b_sheet = pd.read_csv("trainingandtestdata/b_training_sheet.csv")
 
 # Create final sheet
 final_sheet = pd.DataFrame(columns = ['text', 'sentiment'])
