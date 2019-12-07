@@ -26,21 +26,24 @@ def get_our_training_data(fname):
     return cleaned
 
 # Get the training data we labeled
-cleaned_data = get_our_training_data('cleaned_training_data.csv')
+cleaned_data = get_our_training_data('cleaned_training_data_unlemmatized.csv')
 
 # Get sentiment 140 sentences as a list
 def get_sentiment140():
     # Convert csv to pandas
-    sentiment140 = pd.read_csv('trainingandtestdata/cleaned_sentiment_140_2.csv')
+    sentiment140 = pd.read_csv('trainingandtestdata/cleaned_sentiment_140.csv')
+    # Don't use all of it or it takes too long
+    sentiment140 = sentiment140.head(20000)
     # Get rid of quotes from csv
     sentiment140['text'] = sentiment140['text'].apply(ast.literal_eval)
     # Get sentences and sentiments
-    return list(sentiment140['text'])
+    lst = list(sentiment140['text'])
+    return lst
 
 # Train a fasttext model on sentiment140 data
 def pre_train(sentiment140):
     # instantiate model - NOTE DIMENSION OF VECTOR (100)
-    model = FastText(size=100, window=3, min_count=1)
+    model = FastText(size=300, window=3, min_count=1)
     # add vocabulary and train
     model.build_vocab(sentences=sentiment140)
     model.train(sentences=sentiment140, total_examples=len(sentiment140), epochs=10)
@@ -58,7 +61,7 @@ def train_on_our_data(model, our_data):
 # Average word vectors in a sentence
 def average_vectors(sentence):
     # Initialize vector to length of 100
-    average_vector = [0.0] * 100
+    average_vector = [0.0] * 300
     # Exit if empty sentence (to avoid div by 0)
     if len(sentence) == 0:
         return average_vector
@@ -67,6 +70,7 @@ def average_vectors(sentence):
         average_vector += model.wv[token]
     # Divide vector by number of tokens in the sentence
     average_vector = [x / len(sentence) for x in average_vector]
+    print("[Averaged vectors]")
     # Return vector as a list
     return average_vector
 
@@ -79,12 +83,13 @@ def add_vecs_to_df(sentences, df):
     # Add vectors as new column to df
     df['vector'] = vectors
     # Add 100 columns for the vectors
-    for dim in range(100):
+    for dim in range(300):
         cleaned_data['v'+str(dim)] = 0.0
     # Distribute vector across 100 columns
     for row in range(df.shape[0]):
-        for dim in range(100):
+        for dim in range(300):
             cleaned_data['v'+str(dim)][row] = df['vector'][row][dim]
+    print("[Distributed vectors]")
     # Drop text column
     df = df.drop('text', 1)
     # Drop vector column
@@ -96,12 +101,13 @@ def add_vecs_to_df(sentences, df):
 """ EITHER LOAD A MODEL OR TRAIN ONE """
 
 """ Load an existing model """
-model = FastText.load('models/model_2/gensim_model_2')
+model = FastText.load('models/model_3/gensim_model_3')
+print("[Model loaded]")
 
 """ Train a new model """
 # model = pre_train(get_sentiment140())
 """ Save the model """
-# model.save('models/model_2/gensim_model_2')
+# model.save('models/model_3/gensim_model_3')
 
 """ PRODUCE VECTORED DATAFRAME """
 
@@ -109,4 +115,4 @@ model = FastText.load('models/model_2/gensim_model_2')
 vectored_data = add_vecs_to_df(cleaned_data['text'], cleaned_data)
 
 # Save our df to a csv
-vectored_data.to_csv('trainingandtestdata/spread_training_vectors.csv')
+vectored_data.to_csv('trainingandtestdata/spread_training_vectors_unlemmatized.csv')

@@ -2,5 +2,8 @@ virtual_env/
 models/
 todo.txt
 .vscode
-__pycache__
+__pycache__/
 trainingandtestdata/sentiment_140.csv
+trainingandtestdata/cleaned_sentiment_140_unlemmatized.csv
+trainingandtestdata/cleaned_sentiment_140.csv
+trainingandtestdata/cleaned_training_data_unlemmatized.csv

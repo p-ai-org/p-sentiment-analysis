@@ -30,8 +30,8 @@ def clean_tweet(tweet):
     # Remove stop words
     tokens = remove_stop_words(tokens)
     # Lemmatize
-    tweet_cleaned = lemmatize(tokens)
-    return tweet_cleaned
+    # tokens = lemmatize(tokens)
+    return tokens
 
 # Remove urls, punctiation, hashtags, etc
 def remove_unwanted(tokens):
