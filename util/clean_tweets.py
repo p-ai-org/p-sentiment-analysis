@@ -17,6 +17,7 @@ tweet_tokenizer = TweetTokenizer()
 
 # Top level tweet cleaner
 def clean_tweet(tweet):
+    tweet = str(tweet)
     # Let's just split up words with apostrophes
     tokens = tweet.replace("'", ' ')
     # Tokenize
