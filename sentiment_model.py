@@ -2,14 +2,16 @@ import tensorflow as tf
 import pandas as pd
 import re
 import ast
-import numpy as np
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout, Activation, Embedding, LSTM, Conv1D, MaxPooling1D, Flatten
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Activation, Embedding, LSTM
 from sklearn.model_selection import train_test_split
+<<<<<<< HEAD
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import GridSearchCV
 from imblearn.over_sampling import SMOTE
 
+=======
+>>>>>>> parent of b51e670... tested normal 1DD with gridsearch
 
 """
 WORK IN PROGRESS
@@ -39,6 +41,7 @@ print(len(y_train[y_train==0]))
 print(len(y_train[y_train==1]))
 print(len(y_train[y_train==2]))
 
+<<<<<<< HEAD
 def reshape_for_1DCNN(X):
     return np.expand_dims(X, axis=2)
 X_train = reshape_for_1DCNN(X_train)
@@ -77,6 +80,9 @@ run_1DCNN()
 
 
 
+=======
+""" LSTM """
+>>>>>>> parent of b51e670... tested normal 1DD with gridsearch
 
 
 
@@ -98,6 +104,14 @@ run_1DCNN()
 # for mean, stdev, param in zip(means, stds, params):
 #     print("%f (%f) with: %r" % (mean, stdev, param))
 
+<<<<<<< HEAD
 # model.fit(X_train, y_train, batch_size = 50, epochs = 25,  verbose = 5)
 # score = model.evaluate(X_valid, y_valid, 50)
 # print(score)
+=======
+# model = create_lstm_model(128, 200, 32)
+model = create_simple_model()
+model.fit(X_train, y_train, batch_size = 50, epochs = 25,  verbose = 5)
+score = model.evaluate(X_valid, y_valid, 50)
+print(score)
+>>>>>>> parent of b51e670... tested normal 1DD with gridsearch
