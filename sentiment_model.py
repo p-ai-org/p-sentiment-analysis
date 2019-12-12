@@ -66,7 +66,7 @@ def run_1DCNN():
     # Fit on training data and cross-validate
     # Test on testing data
     model.fit(X_train, y_train,
-        epochs=15,
+        epochs=10,
         batch_size=128)
     # Test on testing data
     score = model.evaluate(X_test, y_test, batch_size=128)
