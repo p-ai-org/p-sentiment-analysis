@@ -4,6 +4,12 @@ import nltk #conda install nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
+def main():
+    our_input = resources.get_input()
+    # our_output = clean(our_input)
+    third_party_input = resources.get_third_party_train()
+    third_party_output = clean(third_party_input)
+
 def dummy_text(tweet): #For testing. Replaces tweet text with a hardcoded string
     tweet.text = "ad 😀asdf☕️grw repeated repeated word the quick brown fox"
     return tweet
@@ -33,19 +39,19 @@ def cleaning_step(tweet): #Template for a step in the cleaning pipeline (copypas
     return tweet
 
 cleaning_pipeline = [
-    dummy_text,
+    # dummy_text,
     convert_emoji,
     underscores_to_spaces,
     remove_stop_words,
     # print_text
     ]
 
-def main():
-    data = resources.get_input()
-    data = data.sample(n=1000, random_state=0) #Limit the data for now, for speed and ease of understanding
+def clean(data):
+    data = data.sample(n=40000, random_state=0) #Limit the data for now, for speed and ease of understanding
     for step in cleaning_pipeline:
         print("Applying "+step.__name__)
         data = data.apply(step, axis=1)
+    return data
     
 
 if __name__ == "__main__":
