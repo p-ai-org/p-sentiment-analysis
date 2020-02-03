@@ -1,5 +1,6 @@
 virtual_env/
 models/
+numpyfiles/
 todo.txt
 .vscode
 __pycache__/

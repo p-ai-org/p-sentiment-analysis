@@ -1,6 +1,9 @@
 from gensim.models import FastText
 from gensim.test.utils import common_texts
 import pandas as pd
+import numpy as np
+from numpy import asarray
+from numpy import save
 import io
 import ast
 
@@ -43,7 +46,7 @@ def get_sentiment140():
 # Train a fasttext model on sentiment140 data
 def pre_train(sentiment140):
     # instantiate model - NOTE DIMENSION OF VECTOR
-    model = FastText(size=250, window=3, min_count=1)
+    model = FastText(size=100, window=3, min_count=1)
     print("[Built model]")
     # add vocabulary and train
     model.build_vocab(sentences=sentiment140)
@@ -57,14 +60,14 @@ def pre_train(sentiment140):
 def train_on_our_data(model, our_data):
     # add vocabulary and train
     model.build_vocab(sentences=our_data, update=True)
-    model.train(sentences=our_data, total_examples=len(our_data), epochs=model.epochs)
+    model.train(sentences=our_data, total_examples=len(1000), epochs=model.epochs)
     # return the model
     return model
 
 # Average word vectors in a sentence
 def average_vectors(sentence):
     # Initialize vector to length of 100
-    average_vector = [0.0] * 250
+    average_vector = [0.0] * 100
     # Exit if empty sentence (to avoid div by 0)
     if len(sentence) == 0:
         return average_vector
@@ -76,8 +79,15 @@ def average_vectors(sentence):
     # Return vector as a list
     return average_vector
 
+# Returns a 2d list of vectors for each word in the sentence
+def full_vectors(sentence):
+    vectors = []
+    for token in sentence:
+        vectors.append(model.wv[token])
+    return vectors
+
 # Add a column containing all the vectors to a df
-def add_vecs_to_df(sentences, df):
+def add_avg_vecs_to_df(sentences, df):
     vectors = []
     # Create a list of vectors for each sentence
     for sent in sentences:
@@ -100,22 +110,40 @@ def add_vecs_to_df(sentences, df):
     # Subtract 1 from sentiment column
     df['sentiment'] = df['sentiment'].apply(lambda x: x - 1)
     return df
+
+    # Add a column containing all the vectors to a df
+def add_full_vecs_to_df(sentences, df, max_len):
+    # Set up 3d input array
+    x = np.zeros((len(sentences), max_len, 100), dtype=np.float)
+    for s, sentence in enumerate(sentences):
+        for w, word in enumerate(sentence):
+            vector = model.wv[word]
+            for f in range(len(vector)):
+                x[s, w, f] = vector[f]
+    return x
+    
     
 """ EITHER LOAD A MODEL OR TRAIN ONE """
 
 """ Load an existing model """
-model = FastText.load('models/model_4/gensim_model_4')
+model = FastText.load('models/model_5/gensim_model_5')
 print("[Model loaded]")
 
 """ Train a new model """
 # model = pre_train(get_sentiment140())
 """ Save the model """
-# model.save('models/model_4/gensim_model_4')
+# model.save('models/model_5/gensim_model_5')
 
 """ PRODUCE VECTORED DATAFRAME """
 
 # Add vectors to the dataframe
-vectored_data = add_vecs_to_df(cleaned_data['text'], cleaned_data)
+sentences = cleaned_data['text']
+sentiments = cleaned_data['sentiment'].to_numpy()
+max_len = len(max(sentences, key=len))
+vectored_data = add_full_vecs_to_df(sentences, cleaned_data, max_len)
+# print(vectored_data)
+save('numpyfiles/lstm_x_1.npy', vectored_data)
+save('numpyfiles/lstm_y_1.npy', sentiments)
 
 # Save our df to a csv
-vectored_data.to_csv('trainingandtestdata/spread_training_vectors_complete.csv')
+# vectored_data.to_csv('trainingandtestdata/spread_training_vectors_no_average.csv')
