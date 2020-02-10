@@ -63,8 +63,9 @@ def create_BLSTM():
     model.add(Dropout(0.5))
     # Dense (fully connected) layers
     model.add(Dense(128, activation='relu'))
-    model.add(Dense(4, activation='softmax'))
-    opt = optimizers.SGD(lr=0.01)
+    model.add(Dense(256, activation='relu'))
+    model.add(Dense(3, activation='softmax'))
+    opt = optimizers.SGD(lr=0.02)
     loss = 'sparse_categorical_crossentropy'
     # Compile 
     model.compile(optimizer=opt, loss = loss, metrics=['accuracy'])
@@ -165,8 +166,8 @@ print("[Building model...]")
 model = create_BLSTM()
 print("[Built model]")
 model.fit(X_train, y_train,
-    epochs=4,
-    batch_size=20)
+    epochs=5,
+    batch_size=30)
 # Test on testing data
 print(model.metrics_names)
 print(model.evaluate(X_test, y_test, batch_size=20))
