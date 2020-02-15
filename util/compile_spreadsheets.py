@@ -1,5 +1,6 @@
 import pandas as pd
-# import math
+
+''' Take the csvs from google sheets and convert them to into one dataframe '''
 
 def combine(x):
     # If both aren't filled in, don't use it

@@ -7,6 +7,9 @@ from nltk.tokenize import TweetTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 import time
+
+''' Methods for cleaning tweets '''
+
 stop_words = set(stopwords.words('english'))
 # Let's keep 'not' in the tweets
 stop_words.remove('not')
@@ -79,7 +82,3 @@ def remove_stop_words(tweet_tokens):
 def remove_urls(tweet_tokens):
     regex = re.compile(r'^http|.*\.com.*')
     return [i for i in tweet_tokens if not regex.search(i)]
-
-# tweet = "What won't you do, you f'n coward? ... I thought u were already in sd?? Hmmm. Random u found me. Glad to hear yer doing well."
-# cleaned = clean_tweet(tweet)
-# print(cleaned)

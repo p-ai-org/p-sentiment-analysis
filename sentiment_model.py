@@ -1,22 +1,25 @@
 import tensorflow as tf
 import pandas as pd
 import numpy as np
+import seaborn as sn
 from numpy import load
 import re
 from keras import metrics
 from keras import optimizers
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Embedding, LSTM, Conv1D, MaxPooling1D, Flatten, Bidirectional
-from sklearn.model_selection import train_test_split, GridSearchCV
+from keras.layers import Dense, Dropout, Activation, Embedding, LSTM, Conv1D, MaxPooling1D, Flatten, Bidirectional, SpatialDropout1D
+from sklearn.model_selection import train_test_split, GridSearchCV, TimeSeriesSplit, RandomizedSearchCV
 from sklearn.multiclass import OneVsOneClassifier
 from sklearn.svm import LinearSVC
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.decomposition import PCA
+from sklearn.pipeline import Pipeline
 from keras.wrappers.scikit_learn import KerasClassifier
 import matplotlib.pyplot as plt
+from imblearn.over_sampling import SMOTE
 
 # Get data
-# data = pd.read_csv("trainingandtestdata/spread_training_vectors_complete.csv")
+data = pd.read_csv("trainingandtestdata/spread_training_vectors_complete.csv")
 
 # Get training data and target
 # X = data.loc[:, 'v0':'v249']
@@ -58,12 +61,13 @@ X_test_CNN = reshape_for_1DCNN(X_test)
 
 def create_BLSTM():
     model = Sequential()
-    # Hidden BLSTM layer
-    model.add(Bidirectional(LSTM(64)))
-    model.add(Dropout(0.5))
+    model.add(SpatialDropout1D(0.3))
     # Dense (fully connected) layers
-    model.add(Dense(128, activation='relu'))
+    model.add(Dense(64, activation='relu'))
+    # Hidden BLSTM layer
+    model.add(Bidirectional(LSTM(256, dropout = 0.3, recurrent_dropout = 0.3)))
     model.add(Dense(256, activation='relu'))
+    model.add(Dropout(0.3))
     model.add(Dense(3, activation='softmax'))
     opt = optimizers.SGD(lr=0.02)
     loss = 'sparse_categorical_crossentropy'
@@ -162,12 +166,28 @@ def run_simple(X_train, y_train, X_test, y_test):
 # print(model.metrics_names)
 # print(model.evaluate(X_test_CNN, y_test, batch_size=20))
 
-print("[Building model...]")
-model = create_BLSTM()
-print("[Built model]")
-model.fit(X_train, y_train,
-    epochs=5,
-    batch_size=30)
-# Test on testing data
-print(model.metrics_names)
-print(model.evaluate(X_test, y_test, batch_size=20))
+def run_BLSTM():
+    print("[Building model...]")
+    model = create_BLSTM()
+    print("[Built model]")
+    model.fit(X_train, y_train,
+        epochs=5,
+        batch_size=30)
+    # Test on testing data
+    print(model.metrics_names)
+    print(model.evaluate(X_test, y_test, batch_size=20))
+    return model
+
+def BLSTM_confusion_matrix():
+    model = run_BLSTM()
+    y_pred = model.predict_classes(X_test)
+    print("Predicted: ", y_pred)
+    print("Actual: ", y_test)
+    cm = confusion_matrix(y_test, y_pred)
+    print(cm)
+    df_cm = pd.DataFrame(cm, range(3), range(3))
+    sn.set(font_scale=1.4) # for label size
+    sn.heatmap(df_cm, annot=True, annot_kws={"size": 16}) # font size
+    plt.show()
+
+BLSTM_confusion_matrix()
