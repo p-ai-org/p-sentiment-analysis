@@ -18,21 +18,30 @@ from keras.wrappers.scikit_learn import KerasClassifier
 import matplotlib.pyplot as plt
 from imblearn.over_sampling import SMOTE
 
+# SMOTE
+smt = SMOTE(random_state=0)
+
 # Get data
 data = pd.read_csv("trainingandtestdata/spread_training_vectors_complete.csv")
 
 # Get training data and target
-# X = data.loc[:, 'v0':'v249']
-# y = data['sentiment']
+X = data.loc[:, 'v0':'v249']
+y = data['sentiment']
 
 # Get LSTM training data and target
-X = load('numpyfiles/lstm_x_1.npy')
-y = load('numpyfiles/lstm_y_1.npy')
+# X = load('numpyfiles/lstm_x_1.npy')
+# y = load('numpyfiles/lstm_y_1.npy')
 
 # Split into test and train
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
 
-print(X_train.shape, y_train.shape)
+# original_shape = X_train.shape
+# print(original_shape)
+# reshaped = np.reshape(X_train, (X_train.shape[0], X_train.shape[1]))
+# print(reshaped.shape)
+# X_train = np.reshape(reshaped, original_shape)
+
+X_train, y_train = smt.fit_resample(X = X_train, y = y_train)
 
 # Check the variance explained by the number of vectors
 # def test_PCA():
@@ -78,7 +87,7 @@ def create_BLSTM():
 """ 1DCNN """
 
 # 1DCNN function
-def create_1DCNN(input_dim = 100, kernel_size = 3, pool_size = 3, dropout = 0.1):
+def create_1DCNN(input_dim = 250, kernel_size = 3, pool_size = 3, dropout = 0.1):
     print('-----------Running 1D CNN-----------')
     # Build model 
     model = Sequential()
@@ -158,13 +167,13 @@ def run_simple(X_train, y_train, X_test, y_test):
 # for mean, stdev, param in zip(means, stds, params):
 #     print("%f (%f) with: %r" % (mean, stdev, param))
 
-# model = create_1DCNN()
-# model.fit(X_train_CNN, y_train,
-#     epochs=3,
-#     batch_size=20)
-# # Test on testing data
-# print(model.metrics_names)
-# print(model.evaluate(X_test_CNN, y_test, batch_size=20))
+model = create_1DCNN()
+model.fit(X_train_CNN, y_train,
+    epochs=3,
+    batch_size=20)
+# Test on testing data
+print(model.metrics_names)
+print(model.evaluate(X_test_CNN, y_test, batch_size=20))
 
 def run_BLSTM():
     print("[Building model...]")
@@ -178,16 +187,34 @@ def run_BLSTM():
     print(model.evaluate(X_test, y_test, batch_size=20))
     return model
 
+def run_CNN():
+    print("[Building model...]")
+    model = create_1DCNN()
+    print("[Built model]")
+    model.fit(X_train_CNN, y_train,
+        epochs=3,
+        batch_size=20)
+    # Test on testing data
+    print(model.metrics_names)
+    print(model.evaluate(X_test_CNN, y_test, batch_size=20))
+    return model
+
 def BLSTM_confusion_matrix():
     model = run_BLSTM()
     y_pred = model.predict_classes(X_test)
-    print("Predicted: ", y_pred)
-    print("Actual: ", y_test)
     cm = confusion_matrix(y_test, y_pred)
-    print(cm)
+    display_matrix(cm)
+
+def CNN_confusion_matrix():
+    model = run_CNN()
+    y_pred = model.predict_classes(X_test_CNN)
+    cm = confusion_matrix(y_test, y_pred)
+    display_matrix(cm)
+
+def display_matrix(cm):
     df_cm = pd.DataFrame(cm, range(3), range(3))
     sn.set(font_scale=1.4) # for label size
     sn.heatmap(df_cm, annot=True, annot_kws={"size": 16}) # font size
     plt.show()
 
-BLSTM_confusion_matrix()
+CNN_confusion_matrix()
