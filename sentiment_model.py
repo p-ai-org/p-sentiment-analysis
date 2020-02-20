@@ -24,13 +24,13 @@ smt = SMOTE(random_state=0)
 # Get data
 data = pd.read_csv("trainingandtestdata/spread_training_vectors_complete.csv")
 
-# Get training data and target
-X = data.loc[:, 'v0':'v249']
-y = data['sentiment']
+# Get training data and target (CNN)
+# X = data.loc[:, 'v0':'v249']
+# y = data['sentiment']
 
-# Get LSTM training data and target
-# X = load('numpyfiles/lstm_x_1.npy')
-# y = load('numpyfiles/lstm_y_1.npy')
+# Get training data and target (BLSTM)
+X = load('numpyfiles/lstm_x_1.npy')
+y = load('numpyfiles/lstm_y_1.npy')
 
 # Split into test and train
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
@@ -41,7 +41,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
 # print(reshaped.shape)
 # X_train = np.reshape(reshaped, original_shape)
 
-X_train, y_train = smt.fit_resample(X = X_train, y = y_train)
+# SMOTE CNN DATA
+# X_train, y_train = smt.fit_resample(X = X_train, y = y_train)
 
 # Check the variance explained by the number of vectors
 # def test_PCA():
@@ -167,14 +168,6 @@ def run_simple(X_train, y_train, X_test, y_test):
 # for mean, stdev, param in zip(means, stds, params):
 #     print("%f (%f) with: %r" % (mean, stdev, param))
 
-model = create_1DCNN()
-model.fit(X_train_CNN, y_train,
-    epochs=3,
-    batch_size=20)
-# Test on testing data
-print(model.metrics_names)
-print(model.evaluate(X_test_CNN, y_test, batch_size=20))
-
 def run_BLSTM():
     print("[Building model...]")
     model = create_BLSTM()
@@ -217,4 +210,5 @@ def display_matrix(cm):
     sn.heatmap(df_cm, annot=True, annot_kws={"size": 16}) # font size
     plt.show()
 
-CNN_confusion_matrix()
+BLSTM_confusion_matrix()
+# CNN_confusion_matrix()
