@@ -15,4 +15,10 @@ Here's a brief description of what each file is / does:
     * **compile_spreadsheets**: Takes the google sheets we labeled in csv format and cleans it up into one csv
     * **download_data**: Gets the tweets from Twitter using Twitter API
     * **training_data**: Returns a pandas dataframe of our training data
-* **train_fasttext**: Trains a FastText model and creates 
+* **sentiment_model**: Where we work on our classification models
+* **train_fasttext**: Trains and saves a FastText model
+* **vectorize_data**: Applies the fast text model to vectorize tweets- methods for both averaged and non-averaged vectors
+
+Also note that some of the code will try to add files to or access files from certain folders that you may not have, you can just create them yourselves. Gensim models aren't pushed to GitHub because the files are too big.
+
+
