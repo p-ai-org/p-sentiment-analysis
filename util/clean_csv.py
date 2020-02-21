@@ -1,4 +1,4 @@
-import clean_tweets
+import util.clean_tweets as clean_tweets
 import pandas as pd
 # import numpy as np
 # from numpy import load, save
