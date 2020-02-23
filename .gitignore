@@ -6,5 +6,4 @@ todo.txt
 __pycache__/
 trainingandtestdata/sentiment_140.csv
 trainingandtestdata/cleaned_sentiment_140.csv
-trainingandtestdata/streamlined_data.csv
 .DS_Store
