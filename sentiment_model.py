@@ -22,15 +22,15 @@ from imblearn.over_sampling import SMOTE
 smt = SMOTE(random_state=0)
 
 # Get data
-data = pd.read_csv("trainingandtestdata/spread_training_vectors_complete.csv")
+data = pd.read_csv("trainingandtestdata/streamlined_data.csv")
 
 # Get training data and target (CNN)
-# X = data.loc[:, 'v0':'v249']
-# y = data['sentiment']
+X = data.loc[:, 'v0':'v99']
+y = data['sentiment']
 
 # Get training data and target (BLSTM)
-X = load('numpyfiles/lstm_x_1.npy')
-y = load('numpyfiles/lstm_y_1.npy')
+# X = load('numpyfiles/lstm_2_X.npy')
+# y = load('numpyfiles/lstm_2_y.npy')
 
 # Split into test and train
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
@@ -88,7 +88,7 @@ def create_BLSTM():
 """ 1DCNN """
 
 # 1DCNN function
-def create_1DCNN(input_dim = 250, kernel_size = 3, pool_size = 3, dropout = 0.1):
+def create_1DCNN(input_dim = 100, kernel_size = 3, pool_size = 3, dropout = 0.1):
     print('-----------Running 1D CNN-----------')
     # Build model 
     model = Sequential()
@@ -210,5 +210,5 @@ def display_matrix(cm):
     sn.heatmap(df_cm, annot=True, annot_kws={"size": 16}) # font size
     plt.show()
 
-BLSTM_confusion_matrix()
-# CNN_confusion_matrix()
+# BLSTM_confusion_matrix()
+CNN_confusion_matrix()
