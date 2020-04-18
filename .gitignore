@@ -1,0 +1,9 @@
+virtual_env/
+models/
+numpyfiles/
+todo.txt
+.vscode
+__pycache__/
+trainingandtestdata/sentiment_140.csv
+trainingandtestdata/cleaned_sentiment_140.csv
+.DS_Store
